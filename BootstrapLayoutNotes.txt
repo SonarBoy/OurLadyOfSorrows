@@ -1,0 +1,73 @@
+Bootstrap Layout Notes:
+
+Think designing for the mobile first.
+
+- To ensure proper rendering and touch zooming, add the viewport meta tag to your <head>.
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+- You can disable these capabilities by adding user-scalable=no
+- This can make your site feel more like a native application.
+
+- The following is the basic styling of bootstrap:
+
+    Set background-color: #fff; on the body
+    Use the @font-family-base, @font-size-base, and @line-height-base attributes as our typographic base
+    Set the global link color via @link-color and apply link underlines only on :hover
+
+Containers
+- bootstrap wraps elements in a container to be able to house it in their grid system
+<div class="container"> = fixed width container
+<div class="container-fluid"> = container that spans the entire viewport
+
+
+GRID SYSTEM!!!!
+- Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales 
+up to 12 coloums as the device or viewport size increases. 
+
+- Rows must be placed within a .container or .container-fluid for proper alignment and padding.
+- Use rows to create horizontal groups of columns. or each row is a horizontal group of a columns
+- Content should be placed within columns and only columns may be immediate children of rows.
+- Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts.
+- Columns create gutters or gaps in content via padding. The padding is ofset in rows for the first
+  and last column via negative margin on .rows.
+- Grid columns are created by specifying the number of twelve available columns you wish to span.
+  Example three equal columns would use three .col-xs-4
+- If more than 12 colmns are placed within a single row, each group of extra columns will, as one unit
+  wrap into a new line.
+- Grid classes apply to devices with screen widths greated than or equal to the breakpoint size and 
+  override grid classes targeted at smaller devices. There fore applying any .col-md-* class to an element
+  will not only affect its styling on medium devices but also on large devices if a .col-lg-* class is not present
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+
+Extra small devices 
+Phones < 768px
+.col-xs-
+Colum width: AUTO
+
+Small devices 
+tablets > 768px
+.col-sm-
+Colum width: 62px
+
+Medium devices
+Desktops > 992px
+.col-md-
+Colum width: 81px
+
+Large devices
+Desktops > 1200px
+.col-lg-
+Colum width: 97px
+
+
