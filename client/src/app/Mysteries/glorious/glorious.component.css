@@ -1,0 +1,13 @@
+#cardItem{
+    background-color: #D3E7f3;
+}
+
+#phamplet{
+    background-color: #F6FCFC;
+}
+
+@media only screen and (max-width: 600px) {
+    #phamplet {
+      background-color: red;
+    }
+  }

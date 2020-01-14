@@ -1,0 +1,25 @@
+db.joyful.insert({ MysteryNumber:"1",MatthewVerse:"Matthew 1:18–23",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:" Luke 1:26–38",Luke:"",JohnVerse:"",John:""});
+db.joyful.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"Luke 1:42–45",Luke:"",JohnVerse:"",John:""});
+db.joyful.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.joyful.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.joyful.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+
+db.sorrowful.insert({ MysteryNumber:"1",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.sorrowful.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.sorrowful.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.sorrowful.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.sorrowful.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+
+
+db.glorious.insert({ MysteryNumber:"1",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.glorious.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.glorious.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.glorious.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.glorious.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+
+
+db.luminous.insert({ MysteryNumber:"1",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.luminous.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.luminous.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.luminous.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.luminous.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
