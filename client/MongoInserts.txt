@@ -1,25 +1,23 @@
-db.joyful.insert({ MysteryNumber:"1",MatthewVerse:"Matthew 1:18–23",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:" Luke 1:26–38",Luke:"",JohnVerse:"",John:""});
-db.joyful.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"Luke 1:42–45",Luke:"",JohnVerse:"",John:""});
-db.joyful.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.joyful.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.joyful.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.Rosary.insert({MysteryName:"The Annunciation",MysteryType:"Joyful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 1,28",John:""});
+db.Rosary.insert({MysteryName:"The Visitation",MysteryType:"Joyful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 1,41-42",John:""});
+db.Rosary.insert({MysteryName:"The Birth Of Jesus",MysteryType:"Joyful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 2,7",John:""});
+db.Rosary.insert({MysteryName:"The Presentation",MysteryType:"Joyful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 2,22-23",John:""});
+db.Rosary.insert({MysteryName:"Finding the Child Jesus in the Temple",MysteryType:"Joyful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 2,46",John:""});
 
-db.sorrowful.insert({ MysteryNumber:"1",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.sorrowful.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.sorrowful.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.sorrowful.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.sorrowful.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.Rosary.insert({MysteryName:"The Agony in the Garden",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,44-45",John:""});
+db.Rosary.insert({MysteryName:"The Scourging at the Pillar",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 19,1"});
+db.Rosary.insert({MysteryName:"Crowning with Thorns",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"Matthew 27,28-29",Mark:"",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"Carrying of the Cross",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 19,17"});
+db.Rosary.insert({MysteryName:"The Crucifixion",MysteryType:"",MysteryNumber:"Sorrowful",Verses:"",Matthew:"",Mark:"",Luke:"Luke 23,46",John:""});
 
+db.Rosary.insert({MysteryName:"The Resurrection",MysteryType:"Glorious",MysteryNumber:"",Verses:"",Matthew:"",Mark:"Mark 16,6",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"The Ascension",MysteryType:"Glorious",MysteryNumber:"",Verses:"",Matthew:"",Mark:"Mark 16,19",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"Descent of the Holy Spirit",MysteryType:"Glorious",MysteryNumber:"",Verses:"Acts 2, 4",Matthew:"",Mark:"",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"The Assumption of the Blessed Virgin Mary",MysteryType:"Glorious",MysteryNumber:"",Verses:"Revelations 12,1",Matthew:"",Mark:"",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"The Coronation of the Blessed Virgin Mary",MysteryType:"Glorious",MysteryNumber:"",Verses:"Judith 15, 9-10",Matthew:"",Mark:"",Luke:"",John:""});
 
-db.glorious.insert({ MysteryNumber:"1",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.glorious.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.glorious.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.glorious.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.glorious.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-
-
-db.luminous.insert({ MysteryNumber:"1",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.luminous.insert({ MysteryNumber:"2",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.luminous.insert({ MysteryNumber:"3",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.luminous.insert({ MysteryNumber:"4",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
-db.luminous.insert({ MysteryNumber:"5",MatthewVerse:"",Matthew:"",MarkVerse:"",Mark:"",LukeVerse:"",Luke:"",JohnVerse:"",John:""});
+db.Rosary.insert({MysteryName:"Baptism of Jesus",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"Matthew 3, 16-17",Mark:"",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"Wedding Feast of Cana",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 2,1-5"});
+db.Rosary.insert({MysteryName:"Proclamation of the Kingdom of God",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"",Mark:"Mark 1,14-15",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"The Transfiguration",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"Matthew 17,1-2",Mark:"",Luke:"",John:""});
+db.Rosary.insert({MysteryName:"Institution of the Holy Eucharist",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,19-20",John:""});
