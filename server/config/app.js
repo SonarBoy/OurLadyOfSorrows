@@ -5,9 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 
-
-/* DELETE HERE
-
 //Install Modules for Authentication
 
 var session = require('express-session');
@@ -20,23 +17,20 @@ var flash = require('connect-flash');
 //REMOVED WITH EXPRESS API
 
 
-
+/*
 let passportJWT = require('passport-jwt');
 
 const JWTStrategy= require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
-
+*/
 
 
 var cors = require('cors');
 
 
 //STEP 1: Inculde the Routes to be used for the function
-var indexRouter = require('../routes/index');
-var planetRouter = require('../routes/planets');
-var usersRouter = require('../routes/usersRoute');
-var celestialObjectRouter = require('../routes/celestialObjects');
-var galaxyRouter = require('../routes/galaxyRouter');
+var rosaryRouter = require('../routes/rosaryRouter');
+
 
 //STEP 2: Here we inculde the mongoose model and its configuration file
 var mongoose = require('mongoose');
@@ -83,6 +77,8 @@ app.use(cors());
 
 //REMOVED WHEN EXPRESS API CREATED
 //setup for sessions
+
+/*
 app.use(session({
   secret:"SomeSecret", //USE TO SIGN THE SESSION ID COOKIE
   saveUninitialize: true,
@@ -98,6 +94,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 //passport user configuration
+
+
 var userModel = require('../model/User');
 var User = userModel.User; //Alias to the user model
 
@@ -105,10 +103,14 @@ passport.use(User.createStrategy());
 
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
+*/
+
 //REMOVED WHEN EXPRESS API CREATED
 
 
 // NEW JWT STRATEGY
+
+/*
 var jwtOptions = {};
 jwtOptions.jwtFromRequest = ExtractJWT.fromAuthHeaderWithScheme('JWT');
 jwtOptions.secretOrKey = db.secret;
@@ -127,16 +129,19 @@ var strategy = new JWTStrategy(jwtOptions,(jwt_payload,done) => {
 
 passport.use(strategy);
 
-
+*/
 
 //STEP 5: List all the routers you are going to use in your web application.
 //TODO protect this section.
 
-app.use('/api', indexRouter);
+app.use('/api', rosaryRouter);
+
+
+
 //app.use('/users', usersRouter);
-app.use('/api/celestialObjects',celestialObjectRouter);
-app.use('/api/galaxy',galaxyRouter);
-app.use('/api/Users',usersRouter);
+//app.use('/api/celestialObjects',celestialObjectRouter);
+//app.use('/api/galaxy',galaxyRouter);
+//app.use('/api/Users',usersRouter);
 
 
 
@@ -173,6 +178,7 @@ app.use(function(err, req, res, next) {
 
 */
 
+/*
 var http = require('http');
 
 http.createServer(function (req, res) {
@@ -181,5 +187,6 @@ http.createServer(function (req, res) {
   }).listen(8080); //the server object listens on port 8080 
 
   var app = express();
+*/
 
 module.exports = app;

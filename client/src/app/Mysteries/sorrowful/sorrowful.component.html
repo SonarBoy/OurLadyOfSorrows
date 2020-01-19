@@ -1,7 +1,13 @@
 <body id="phamplet">
+    
+    <div *ngFor="let item of  sorrowfulMystery">
+      <h3 class="mb-0">{{item.MysteryName}}</h3>
+    </div>
+
+
     <div class="col-xs-12 col-md-8 container" >
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
+          
 
             <div class="col-auto d-none d-lg-block">
                 <img class="bd-placeholder-img"  src="assets/Mysteries/Sorrowful/first.jpg" height="250" width="200">
@@ -123,4 +129,5 @@
           
         </div>
       </div>
+     
 </body>

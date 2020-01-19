@@ -10,7 +10,7 @@ module.exports.displayJoyfulList = (request,response,next) =>{
         if(error){
             return console.log(error);
         }else{
-            response.json({success:true,msg:'Joyful List'});
+            response.json({success:true,msg:'Joyful List',joyfulList});
         }
 
 
@@ -19,12 +19,12 @@ module.exports.displayJoyfulList = (request,response,next) =>{
 }
 
 module.exports.displaySorrofulList = (request,response,next) =>{
-    rosaryModel.find({'MysteryType':'Sorrowful'},(error,joyfulList) =>{
+    rosaryModel.find({'MysteryType':'Sorrowful'},(error,sorrowfulList) =>{
 
         if(error){
             return console.log(error);
         }else{
-            response.json({success:true,msg:'Joyful List'});
+            response.json({success:true,msg:'Sorrowful List',sorrowfulList});
         }
 
 
@@ -32,12 +32,12 @@ module.exports.displaySorrofulList = (request,response,next) =>{
 }
 
 module.exports.displayGloriousList = (request,response,next) =>{
-    rosaryModel.find({'MysteryType':'Glorious'},(error,joyfulList) =>{
+    rosaryModel.find({'MysteryType':'Glorious'},(error,gloriousList) =>{
 
         if(error){
             return console.log(error);
         }else{
-            response.json({success:true,msg:'Joyful List'});
+            response.json({success:true,msg:'Glorious List',gloriousList});
         }
 
 
@@ -45,12 +45,12 @@ module.exports.displayGloriousList = (request,response,next) =>{
 }
 
 module.exports.displayLuminousList = (request,response,next) =>{
-    rosaryModel.find({'MysteryType':'Luminous'},(error,joyfulList) =>{
+    rosaryModel.find({'MysteryType':'Luminous'},(error,luminousList) =>{
 
         if(error){
             return console.log(error);
         }else{
-            response.json({success:true,msg:'Joyful List'});
+            response.json({success:true,msg:'Luminous List',luminousList});
         }
 
 
