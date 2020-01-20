@@ -8,7 +8,7 @@ db.Rosary.insert({MysteryName:"The Agony in the Garden",MysteryType:"Sorrowful",
 db.Rosary.insert({MysteryName:"The Scourging at the Pillar",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 19,1"});
 db.Rosary.insert({MysteryName:"Crowning with Thorns",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"Matthew 27,28-29",Mark:"",Luke:"",John:""});
 db.Rosary.insert({MysteryName:"Carrying of the Cross",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 19,17"});
-db.Rosary.insert({MysteryName:"The Crucifixion",MysteryType:"",MysteryNumber:"Sorrowful",Verses:"",Matthew:"",Mark:"",Luke:"Luke 23,46",John:""});
+db.Rosary.insert({MysteryName:"The Crucifixion",MysteryType:"Sorrowful",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 23,46",John:""});
 
 db.Rosary.insert({MysteryName:"The Resurrection",MysteryType:"Glorious",MysteryNumber:"",Verses:"",Matthew:"",Mark:"Mark 16,6",Luke:"",John:""});
 db.Rosary.insert({MysteryName:"The Ascension",MysteryType:"Glorious",MysteryNumber:"",Verses:"",Matthew:"",Mark:"Mark 16,19",Luke:"",John:""});
