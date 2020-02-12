@@ -3,9 +3,7 @@ var router = express.Router();
 var rosaryController = require("../controllers/rosaryController");
 
 
-router.get('/',function(request,response,next){
-    response.render('index',{title:'Express',alertStyle:"Success"});
-});
+
 
 router.get('/joyful',rosaryController.displayJoyfulList);
 router.get('/sorrowful',rosaryController.displaySorrofulList);

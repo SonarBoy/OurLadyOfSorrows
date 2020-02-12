@@ -1,11 +1,9 @@
 <body id="phamplet">
-  <div *ngFor="let item of  gloriousMystery">
-    <h3 class="mb-0">{{item.MysteryName}}</h3>
-  </div>
+  
 
     <div class="col-xs-12 col-md-8 container" >
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
+          
 
             <div class="col-auto d-none d-lg-block ">
                 <img class="bd-placeholder-img"  src="assets/Mysteries/Glorious/first.jpg" height="250" width="200">
@@ -64,7 +62,7 @@
 
            <div class="col p-4 d-flex flex-column position-static">
             <h2 class="mb-0">The Third Glorious Mysteries</h2>
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">The Ascension</strong></h3>
+            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">The Descent of the Holy Spirit</strong></h3>
             <div class="mb-1 text-muted"></div>
             <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
             <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -127,4 +125,49 @@
           
         </div>
       </div>
+
+
+
+      <div *ngFor="let item of gloriousMystery" class="col-xs-12 col-md-8 container" >
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
+          
+
+            <div class="col-auto d-none d-lg-block ">
+                <img class="bd-placeholder-img"  src="" height="250" width="200">
+
+            </div>
+
+           <div class="col p-4 d-flex flex-column position-static">
+            <h2 class="mb-0">The First Glorious Mysteries</h2>
+            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">{{item.MysteryName}}</strong></h3>
+            <div class="mb-1 text-muted"></div>
+            <p *ngIf="item.Matthew != ''" class="card-text mb-auto">{{item.Matthew}}</p>
+            <p *ngIf="item.Mark != ''" class="card-text mb-auto">{{item.Mark}}</p>
+            <p *ngIf="item.Luke != ''" class="card-text mb-auto">{{item.Luke}}</p>
+            <p *ngIf="item.John != ''" class="card-text mb-auto">{{item.John}}</p>
+            <p  class="card-text mb-auto">{{item.Verses}}</p>
+            <div class="mb-1 text-muted"></div>
+            <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
+            <h4 class="mb-0">For the virtue of faith.</h4>
+            
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </body>
