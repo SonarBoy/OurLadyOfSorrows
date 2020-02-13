@@ -3,8 +3,6 @@ var router = express.Router();
 var rosaryController = require("../controllers/rosaryController");
 
 
-
-
 router.get('/joyful',rosaryController.displayJoyfulList);
 router.get('/sorrowful',rosaryController.displaySorrofulList);
 router.get('/glorious',rosaryController.displayGloriousList);

@@ -1,4 +1,4 @@
 module.exports = {
-    "URI":"mongodb://localhost/OurLadyOfSorrows"
-    //"secret":"EnvironmentVariable"
+    "URI":"mongodb://localhost/OurLadyOfSorrows",
+    "secret":"EnvironmentVariable"
 }

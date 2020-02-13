@@ -17,12 +17,12 @@ var flash = require('connect-flash');
 //REMOVED WITH EXPRESS API
 
 
-/*
+
 let passportJWT = require('passport-jwt');
 
 const JWTStrategy= require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
-*/
+
 
 
 var cors = require('cors');
@@ -30,7 +30,7 @@ var cors = require('cors');
 
 //STEP 1: Inculde the Routes to be used for the function
 var rosaryRouter = require('../routes/rosaryRouter');
-
+var usersRouter = require('../routes/userRouter');
 
 //STEP 2: Here we inculde the mongoose model and its configuration file
 var mongoose = require('mongoose');
@@ -78,7 +78,7 @@ app.use(cors());
 //REMOVED WHEN EXPRESS API CREATED
 //setup for sessions
 
-/*
+
 app.use(session({
   secret:"SomeSecret", //USE TO SIGN THE SESSION ID COOKIE
   saveUninitialize: true,
@@ -103,14 +103,13 @@ passport.use(User.createStrategy());
 
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
-*/
 
 //REMOVED WHEN EXPRESS API CREATED
 
 
 // NEW JWT STRATEGY
 
-/*
+
 var jwtOptions = {};
 jwtOptions.jwtFromRequest = ExtractJWT.fromAuthHeaderWithScheme('JWT');
 jwtOptions.secretOrKey = db.secret;
@@ -126,16 +125,15 @@ var strategy = new JWTStrategy(jwtOptions,(jwt_payload,done) => {
 });
 // NEW JWT STRATEGY
 
-
 passport.use(strategy);
 
-*/
+
 
 //STEP 5: List all the routers you are going to use in your web application.
 //TODO protect this section.
 
-app.use('/api', rosaryRouter);
-
+app.use('/api/Rosary', rosaryRouter);
+app.use('/api/Users',usersRouter);
 
 
 //app.use('/users', usersRouter);
@@ -158,7 +156,7 @@ app.use('/Users',usersRouter);
 // TODO CAPTURE RANDOM LINKS
 
 
-/* DELETE HERE
+ 
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -176,17 +174,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-*/
-
-/*
-var http = require('http');
-
-http.createServer(function (req, res) {
-    res.write('Hello World!'); //write a response to the client
-    res.end(); //end the response
-  }).listen(8080); //the server object listens on port 8080 
-
-  var app = express();
-*/
 
 module.exports = app;

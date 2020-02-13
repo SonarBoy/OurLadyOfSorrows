@@ -24,6 +24,7 @@ module.exports.displayUserList = (request,response,next) =>{
         callback: function.
 
         MyModel.find({ name: 'john', age: { $gte: 18 }}, function (err, docs) {});
+        Returns all documents that match the specified criteria.
     */
 }
 
