@@ -2,23 +2,16 @@ import { Injectable } from '@angular/core';
 import {HttpClient,HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-//Mysteries
-/*
-import { Joyful } from '../Mysteries/joyful';
-import { Sorrowful } from '../Mysteries/sorrowful';
-import { Glorious } from '../Mysteries/glorious';
-import { Luminous } from '../Mysteries/luminous';
-*/
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class RosaryServiceService {
-  private joyfulPoint = 'http://localhost:3000/api/joyful';
-  private sorrowfulPoint = 'http://localhost:3000/api/sorrowful';
-  private gloriousPoint = 'http://localhost:3000/api/glorious';
-  private luminousPoint = 'http://localhost:3000/api/luminous';
+  private joyfulPoint = 'http://localhost:3000/api/Rosary/joyful';
+  private sorrowfulPoint = 'http://localhost:3000/api/Rosary/sorrowful';
+  private gloriousPoint = 'http://localhost:3000/api/Rosary/glorious';
+  private luminousPoint = 'http://localhost:3000/api/Rosary/luminous';
 
 
   private httpOptionsJoyful = {

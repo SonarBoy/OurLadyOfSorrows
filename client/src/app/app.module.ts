@@ -12,6 +12,10 @@ import { LuminousComponent } from './Mysteries/luminous/luminous.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './util-pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './util-pages/login/login.component';
+import { UserListComponent } from './user/user-list/user-list.component';
+import { UserDetailsComponent } from './user/user-details/user-details.component';
+import { UserDeleteComponent } from './user/user-delete/user-delete.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { HttpClientModule } from '@angular/common/http';
     SorrowfulComponent,
     GloriousComponent,
     LuminousComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    UserListComponent,
+    UserDetailsComponent,
+    UserDeleteComponent
   ],
   imports: [
     BrowserModule,

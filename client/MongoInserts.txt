@@ -22,3 +22,10 @@ db.Rosary.insert({MysteryName:"Proclamation of the Kingdom of God",MysteryType:"
 db.Rosary.insert({MysteryName:"The Transfiguration",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"Matthew 17,1-2 Jesus took Peter, James and his brother John and led them up on a high mountain by themselves. He was transfigured before their eyes. His face became as dazzling as the sun, his clothes as radiant as light.",Mark:"",Luke:"",John:""});
 db.Rosary.insert({MysteryName:"Institution of the Holy Eucharist",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,19-20 Taling bread and giving thanks, he broke it and gave it to them saying , 'This is my body to be given for you. Do this as a remembrance of me.' He did the same with the cup after eating, saying as he did so: 'This cup is the new covenant in my blood, which will be shed for you.'",John:""});
 
+db.Saints.insert({Name:"St Joseph",})
+db.Saints.insert({Name:"St Micheal"})
+db.Saints.insert({Name:"St Gabriel"})
+db.Saints.insert({Name:"St Anthony"})
+db.Saints.insert({Name:"St Peter"})
+db.Saints.insert({Name:"St Paul"})
+

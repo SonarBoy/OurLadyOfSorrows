@@ -1,0 +1,36 @@
+<div class="container">
+    <br />
+    </div>
+    <div class="container">
+    <br />
+    </div>
+    <div class="container">
+    <br />
+    </div>
+    
+    <a class="btn btn-primary btn-sm" routerLink="/Users/add" role="button">Add to Users.</a>
+    
+    <div *ngFor="let user of users">
+
+    <div class="row mb-1 p-4">
+        <div class="col-md-12">
+            <div class="row  border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative  ">
+                <div class="col p-4 d-flex flex-column position-static rowItemMongo">
+                    
+                    <h3 class="mb-0">{{user.username}}</h3>
+                    <p class="card-text mb-auto">{{user.email}}</p>
+                    
+                    
+                    <span class="span2">
+                        <!--<a routerLink="/User/user-list/edit/{{ user._id }}" class="btn btn-primary" >Edit</a> -->
+                        <a routerLink="/Users/delete/{{ user._id }}" class="btn btn-danger" (click)="onDeleteClick()">Delete</a>
+                    </span>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    
