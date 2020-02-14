@@ -26,10 +26,10 @@ const routes: Routes=[
   {path: 'joyful',component: JoyfulComponent},
   {path: 'sorrowful',component: SorrowfulComponent},
   {path: 'glorious',component: GloriousComponent},
-  {path: 'luminous',component: LuminousComponent}
+  {path: 'luminous',component: LuminousComponent},
 
   
-  
+  {path:'**',redirectTo: '/home', pathMatch: 'full'}
 
 
 

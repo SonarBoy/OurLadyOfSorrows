@@ -17,6 +17,16 @@ import { UserListComponent } from './user/user-list/user-list.component';
 import { UserDetailsComponent } from './user/user-details/user-details.component';
 import { UserDeleteComponent } from './user/user-delete/user-delete.component';
 
+import {AuthService} from '../app/service/auth.service';
+import {JwtModule,JwtHelperService, JwtInterceptor} from '@auth0/angular-jwt';
+
+
+export function jwtTokenGetter(){
+  return localStorage.getItem('id_token');
+}
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +46,12 @@ import { UserDeleteComponent } from './user/user-delete/user-delete.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: jwtTokenGetter
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

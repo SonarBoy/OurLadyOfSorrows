@@ -25,6 +25,12 @@ export class UserListComponent implements OnInit {
     this.displayUserList();
   }
 
+  public onDeleteClick():void{
+    if(!confirm('Are you sure?')){
+      this.router.navigate(['/Users']);
+    }
+  }
+
 
   displayUserList(){
     this.userListService.getList().subscribe(data => {
