@@ -31,6 +31,7 @@ var cors = require('cors');
 //STEP 1: Inculde the Routes to be used for the function
 var rosaryRouter = require('../routes/rosaryRouter');
 var usersRouter = require('../routes/userRouter');
+var indexRouter = require('../routes/indexRouter');
 
 //STEP 2: Here we inculde the mongoose model and its configuration file
 var mongoose = require('mongoose');
@@ -134,6 +135,7 @@ passport.use(strategy);
 
 app.use('/api/Rosary', rosaryRouter);
 app.use('/api/Users',usersRouter);
+app.use('/api/',indexRouter);
 
 
 //app.use('/users', usersRouter);
