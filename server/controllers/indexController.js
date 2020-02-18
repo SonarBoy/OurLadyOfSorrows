@@ -85,3 +85,5 @@ module.exports.performLogout = (request,response,next) => {
     request.logout();
     return response.json({success: true,msg: 'User Logout Successfully!'});
 }
+
+
