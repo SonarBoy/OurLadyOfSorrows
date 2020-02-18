@@ -19,6 +19,8 @@ import { UserDeleteComponent } from './user/user-delete/user-delete.component';
 
 import {AuthService} from '../app/service/auth.service';
 import {JwtModule,JwtHelperService, JwtInterceptor} from '@auth0/angular-jwt';
+import { PageNotFoundComponent } from './util-pages/page-not-found/page-not-found.component';
+import { RegisterComponent } from './util-pages/register/register.component';
 
 
 export function jwtTokenGetter(){
@@ -40,7 +42,9 @@ export function jwtTokenGetter(){
     LoginComponent,
     UserListComponent,
     UserDetailsComponent,
-    UserDeleteComponent
+    UserDeleteComponent,
+    PageNotFoundComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

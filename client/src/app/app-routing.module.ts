@@ -10,12 +10,16 @@ import { LoginComponent } from './util-pages/login/login.component';
 import { UserListComponent } from './user/user-list/user-list.component';
 import { UserDetailsComponent} from './user/user-details/user-details.component';
 import { UserDeleteComponent } from './user/user-delete/user-delete.component';
+import { PageNotFoundComponent } from './util-pages/page-not-found/page-not-found.component';
+import { RegisterComponent } from './util-pages/register/register.component';
 
 const routes: Routes=[
 
   //Utils Pages.
   {path: 'home',component: HomeComponent},
   {path: 'login',component:LoginComponent, data: {title:'Login'}},
+  {path: 'register', component:RegisterComponent, data:{title:'register'}},
+
 
   //User Pages
   {path: 'Users', component:UserListComponent,data: {title:'Users'}},
@@ -29,7 +33,7 @@ const routes: Routes=[
   {path: 'luminous',component: LuminousComponent},
 
   
-  {path:'**',redirectTo: '/home', pathMatch: 'full'}
+  {path:'**',component: PageNotFoundComponent, pathMatch: 'full'}
 
 
 
