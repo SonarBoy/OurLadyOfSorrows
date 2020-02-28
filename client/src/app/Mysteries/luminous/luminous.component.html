@@ -1,9 +1,22 @@
 <body id="phamplet">
-
-  <div *ngFor="let item of  luminousMystery">
-    <h3 class="mb-0">{{item.MysteryName}}</h3>
-  </div>
-
+    <!-- https://angular.io/api/common/NgSwitchCase -->
+    <div *ngFor="let item of luminousMystery">
+      <h3 class="mb-0">{{item.MysteryName}}</h3>
+      <div [ngSwitch]="item.MysteryNumber">
+      <h1 *ngSwitchCase="1">First</h1>
+      <h1 *ngSwitchCase="2">Second</h1>
+      <h1 *ngSwitchCase="3">Third</h1>
+      <h1 *ngSwitchCase="4">Fourth</h1>
+      <h1 *ngSwitchCase="5">Fifth</h1>
+      </div>
+      <p>Contemplation {{item.Contemplation}}</p>
+      <p>VERSE: {{item.Verses}}</p>
+      <p>VERSE: {{item.Matthew}}</p>
+      <p>VERSE: {{item.Mark}}</p>
+      <p>VERSE: {{item.Luke}}</p>
+      <p>VERSE: {{item.John}}</p>
+    </div>
+  
 
     <div class="col-xs-12 col-md-8 container" >
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">

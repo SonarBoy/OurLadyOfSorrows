@@ -1,5 +1,5 @@
 <body id="phamplet">
-  
+
 
     <div class="col-xs-12 col-md-8 container" >
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
@@ -138,14 +138,24 @@
             </div>
 
            <div class="col p-4 d-flex flex-column position-static">
-            <h2 class="mb-0">The First Glorious Mysteries</h2>
+            
+            <div [ngSwitch]="item.MysteryNumber">
+            <h2 *ngSwitchCase="1">The First {{item.MysteryType}} Mystery</h2>
+            <h2 *ngSwitchCase="2">The Second {{item.MysteryType}} Mystery</h2>
+            <h2 *ngSwitchCase="3">The Third {{item.MysteryType}} Mystery</h2>
+            <h2 *ngSwitchCase="4">The Fourth {{item.MysteryType}} Mystery</h2>
+            <h2 *ngSwitchCase="5">The Fifth {{item.MysteryType}} Mystery</h2>
+            </div>
+
             <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">{{item.MysteryName}}</strong></h3>
             <div class="mb-1 text-muted"></div>
             <p *ngIf="item.Matthew != ''" class="card-text mb-auto">{{item.Matthew}}</p>
             <p *ngIf="item.Mark != ''" class="card-text mb-auto">{{item.Mark}}</p>
             <p *ngIf="item.Luke != ''" class="card-text mb-auto">{{item.Luke}}</p>
             <p *ngIf="item.John != ''" class="card-text mb-auto">{{item.John}}</p>
-            <p  class="card-text mb-auto">{{item.Verses}}</p>
+            <p *ngIf="item.Verses != ''" class="card-text mb-auto">{{item.Verses}}</p>
+            <p class="card-text mb-auto">{{item.Contemplation}}</p>
+
             <div class="mb-1 text-muted"></div>
             <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
             <h4 class="mb-0">For the virtue of faith.</h4>

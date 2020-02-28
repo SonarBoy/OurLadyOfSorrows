@@ -12,6 +12,7 @@ import { UserDetailsComponent} from './user/user-details/user-details.component'
 import { UserDeleteComponent } from './user/user-delete/user-delete.component';
 import { PageNotFoundComponent } from './util-pages/page-not-found/page-not-found.component';
 import { RegisterComponent } from './util-pages/register/register.component';
+import { AuthGuardGuard } from './guards/auth-guard.guard';
 
 const routes: Routes=[
 
@@ -22,9 +23,9 @@ const routes: Routes=[
 
 
   //User Pages
-  {path: 'Users', component:UserListComponent,data: {title:'Users'}},
-  {path: 'Users/add', component:UserDetailsComponent, data: {title: 'Add User'}},
-  {path: 'Users/delete/:id',component:UserDeleteComponent,data:{title:'Add Delete'}},
+  {path: 'Users', component:UserListComponent,data: {title:'Users'},canActivate:[AuthGuardGuard]},
+  {path: 'Users/add', component:UserDetailsComponent, data: {title: 'Add User'},canActivate:[AuthGuardGuard]},
+  {path: 'Users/delete/:id',component:UserDeleteComponent,data:{title:'Add Delete'},canActivate:[AuthGuardGuard]},
 
   //Mysteries
   {path: 'joyful',component: JoyfulComponent},

@@ -4,11 +4,12 @@ let RosarySchema = mongoose.Schema({
     MysteryName: String,
     MysteryType: String,
     MysteryNumber: Number,
-    Verses: Number,
+    Verses: String,
     Matthew: String,
     Mark: String,
     Luke: String,
-    John: String
+    John: String,
+    Contemplation: String
 },{
     collection: "Rosary"
 });

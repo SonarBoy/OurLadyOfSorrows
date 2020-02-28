@@ -21,6 +21,7 @@ import {AuthService} from '../app/service/auth.service';
 import {JwtModule,JwtHelperService, JwtInterceptor} from '@auth0/angular-jwt';
 import { PageNotFoundComponent } from './util-pages/page-not-found/page-not-found.component';
 import { RegisterComponent } from './util-pages/register/register.component';
+import { AuthGuardGuard } from './guards/auth-guard.guard';
 
 
 export function jwtTokenGetter(){
@@ -57,7 +58,7 @@ export function jwtTokenGetter(){
       }
     })
   ],
-  providers: [],
+  providers: [AuthGuardGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
