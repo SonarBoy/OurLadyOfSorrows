@@ -1,0 +1,14 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#phamplet{
+    background-color: #F6FCFC;
+}
+
+.img-container {
+    text-align: center;
+  }
