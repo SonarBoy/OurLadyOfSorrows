@@ -6,19 +6,74 @@ db.Rosary.insert({MysteryName:"Finding the Child Jesus in the Temple",MysteryTyp
 
 
 db.Rosary.update({MysteryName: {$eq:"The Annunciation"}},  {MysteryName:"The Annunciation",MysteryType:"Joyful",MysteryNumber:"1",Verses:"",Matthew:"",Mark:"",Luke:"Luke 1,28 And when the Angel had come to her, he said, Hail, full of grace the Lord is with thee. Blessed art thou among women.",John:"",
-Contemplation:"Let us contemplate the Annunciation of the Archangel Gabriel to Mary about the coming of Christ: here we are before the virtues of faith, obedience and humility to receive a new Life and make the planet become sacred."}  , { });
+Contemplation:"Let us contemplate the Annunciation of the Archangel Gabriel to Mary about the coming of Christ: here we are before the virtues of faith, obedience and humility to receive a new Life and make the planet become sacred.",
+imageLocation:"assets/Mysteries/Joyful/first.jpg",
+B1:"Through the disobedience of Adam sin enters the world. Rom. 5:12",
+B2:"The Father sends His Son to save the world. Jn. 3:17",
+B3:"The Angel Gabriel is sent to a virgin named Mary. Lk. 1:26,27",
+B4:"The Angel tells Mary: 'You are to have a Son and will name Him Jesus.' Lk. 1:31",
+B5:"He is the Son of God. Lk. 1:32",
+B6:"Mary consents: 'Let it be done to me.' Lk. 1:38",
+B7:"God the Son becomes Man, in obedience to His Father. Lk. 1:35",
+B8:"By His obedience many shall be saved. Rom. 5:19",
+B9:"Mary becomes Mother of God. Lk. 1:35",
+B10:"Nothing is impossible with God. Lk. 1:37"}  , { });
 
 db.Rosary.update({MysteryName: {$eq:"The Visitation"}},  {MysteryName:"The Visitation",MysteryType:"Joyful",MysteryNumber:"2",Verses:"",Matthew:"",Mark:"",Luke:"Luke 1,41-42 Elizabeth was filled with the Holy Spirit and cried out in a loud voice: Blest are you among women and blest is the fruit of your womb",John:"",
-Contemplation:"Let us contemplate the visit of Mary to Her cousin Elizabeth: here we are before the exercise of fraternity, the meeting of brothers and sisters who recognize each other and unite for the Divine Purpose."}  , { });
+Contemplation:"Let us contemplate the visit of Mary to Her cousin Elizabeth: here we are before the exercise of fraternity, the meeting of brothers and sisters who recognize each other and unite for the Divine Purpose.",
+imageLocation:"assets/Mysteries/Joyful/second.jpg",
+B1:"Mary visits her elderly cousin Elizabeth. Lk. 1:40",
+B2:"Elizabeth is with child. His name is John. Lk. 1:13",
+B3:"She greets Mary: 'Blessed are you because you believed.' Lk. 1:45",
+B4:"Mary herself is with Child, through the Holy Spirit. Mt. 1:18",
+B5:"She answers: 'My soul proclaims the greatness of the Lord.' Lk. 1:46",
+B6:"'His mercy reaches from age to age.' Lk. 1:50",
+B7:"Mary, the Mother of God, stays to help Elizabeth. Lk. 1:56",
+B8:"After three months Mary returns to her home in Nazareth. Lk. 1:56",
+B9:"Do good to all. Gal. 6:10",
+B10:"Be at peace with everyone. Rom. 12:18"}  , { });
 
 db.Rosary.update({MysteryName: {$eq:"The Birth Of Jesus"}},  {MysteryName:"The Birth Of Jesus",MysteryType:"Joyful",MysteryNumber:"3",Verses:"",Matthew:"",Mark:"",Luke:"Luke 2,7 She gave birth to her first-born son and wrapped him in swaddiling clothes and laid him in a manger, because there was no room for them in the place where travellers lodged",John:"",
-Contemplation:"Let us contemplate the Birth of Jesus: here we are before the Christ that may be reborn inside of us in the daily situations of life, in our inner manger, the Temple which shelters the Sacred Life."}  , { });
+Contemplation:"Let us contemplate the Birth of Jesus: here we are before the Christ that may be reborn inside of us in the daily situations of life, in our inner manger, the Temple which shelters the Sacred Life.",
+imageLocation:"assets/Mysteries/Joyful/third.jpg",
+B1:"In Bethlehem will be born He Who is to rule my people. Micah 5:2",
+B2:"Joseph and Mary leave Nazareth to register in Bethlehem. Lk. 2:4",
+B3:"There, Mary gives birth to the Son of God. Lk. 2:7",
+B4:"Mary lays Him in a manger, because there is no room for Him in the inn. Lk. 2:7",
+B5:"Angels announce to shepherds nearby: 'The Savior is born.' Lk. 2:10,11",
+B6:"Angels sing: 'Peace to men of good will.' Lk. 2:14",
+B7:"Wise men come from the East in search of Christ. Mt. 2:1,2",
+B8:"Entering the house in Bethlehem, they worship Him. Mt. 2:11",
+B9:"All nations serve Him. Ps. 72:11",
+B10:"Those who accept Christ become children of God. Jn. 1:12"}  , { });
 
 db.Rosary.update({MysteryName: {$eq:"The Presentation"}}, {MysteryName:"The Presentation",MysteryType:"Joyful",MysteryNumber:"4",Verses:"",Matthew:"",Mark:"",Luke:"Luke 2,22-23 When the day came to purify them according to the law of Moses, the couple brought him up to Jerusalem so that he could be presented to the Lord, for it is written in the law of the Lord, Every first-born male shall be consecrated to the Lord.",John:"",
-Contemplation:"Let us contemplate the presentation of the Child Jesus in the temple: here we are before the opportunity to present ourselves to God and to surrender to Him."}  , { });
+Contemplation:"Let us contemplate the presentation of the Child Jesus in the temple: here we are before the opportunity to present ourselves to God and to surrender to Him.",
+imageLocation:"assets/Mysteries/Joyful/fourth.jpg",
+B1:"When the Child Jesus is eight days old, He is circumcised. Lk. 2:21",
+B2:"And his parents name Him Jesus. Lk. 2:21",
+B3:"The name of Jesus is the only name by which we can be saved. Acts 4:12",
+B4:"'Ask the Father anything in My Name.  He will give it to you.' Jn. 16:23",
+B5:"Lord, You are good and forgiving to all who call upon Your Name. Ps. 86:5",
+B6:"Joseph and Mary take Jesus to Jerusalem to present Him to God. Lk. 2:22",
+B7:"Simeon, a holy man, foretells: 'This Child is destined for the fall and rise of many.' Lk. 2:34",
+B8:"'Your own soul a sword shall pierce.' Lk. 2:35",
+B9:"Joseph and Mary take Jesus to their hometown of Nazareth. Lk. 2:39",
+B10:"Whatever you do, do all in the Name of Jesus. Col. 3:17"}  , { });
 
 db.Rosary.update({MysteryName: {$eq:"Finding the Child Jesus in the Temple"}},  {MysteryName:"Finding the Child Jesus in the Temple",MysteryType:"Joyful",MysteryNumber:"5",Verses:"",Matthew:"",Mark:"",Luke:"Luke 2,46 On the third day they came upon him in the temple sitting in the midst of the teachers, listening to them and asking them questions.",John:"",
-Contemplation:"Let us contemplate the scene in which Jesus, still a child, was found in the temple: here we are before the dedication and the unconditional choice for the Spiritual Life."}  , { });
+Contemplation:"Let us contemplate the scene in which Jesus, still a child, was found in the temple: here we are before the dedication and the unconditional choice for the Spiritual Life.",
+imageLocation:"assets/Mysteries/Joyful/fifth.jpg",
+B1:"Jesus is twelve years old, and goes to Jerusalem with Mary and Joseph. Lk. 2:42",
+B2:"Jesus remains in Jerusalem. His parents do not realize it. Lk. 2:43",
+B3:"Mary and Joseph return looking for Him. Lk. 2:45",
+B4:"They find Jesus in the temple. Lk. 2:46",
+B5:"Jesus was fulfilling the will of His Father.  Lk. 2:49",
+B6:"The Holy Family returns to Nazareth. Lk. 2:51",
+B7:"Jesus, the Son of God, obeys His parents. Lk. 2:51",
+B8:"God tells us: Honor your father and your mother. Mt. 15:4",
+B9:"If you love Me, obey My commandments. Jn. 14:15",
+B10:"Let us love in thought, in word, and in action. 1 Jn. 3:18"}  , { });
 
 
 db.Rosary.insert({MysteryName:"The Agony in the Garden",MysteryType:"Sorrowful",MysteryNumber:"1",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,44-45 In his anguish he prayed with all the greater intensity, and his sweat became like drops of blood falling to the ground. Then he rose from prayer and came to his disciples, only to find them asleep, exhausted with grief.",John:""});
@@ -28,15 +83,74 @@ db.Rosary.insert({MysteryName:"Carrying of the Cross",MysteryType:"Sorrowful",My
 db.Rosary.insert({MysteryName:"The Crucifixion",MysteryType:"Sorrowful",MysteryNumber:"5",Verses:"",Matthew:"",Mark:"",Luke:"Luke 23,46 Jesus uttered a loud cry and said 'Father, into your hands I commend my spirit. After he said this, he expired.",John:""});
 
 db.Rosary.update({MysteryName: {$eq:"The Agony in the Garden"}},  {MysteryName:"The Agony in the Garden",MysteryType:"Sorrowful",MysteryNumber:"1",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,44-45 In his anguish he prayed with all the greater intensity, and his sweat became like drops of blood falling to the ground. Then he rose from prayer and came to his disciples, only to find them asleep, exhausted with grief.",John:"",
-Contemplation:" Let us contemplate Jesus in the Garden of Olives: before an extreme distress, the possibility of maintaining absolute trust in the Father."}  , { });
+Contemplation:" Let us contemplate Jesus in the Garden of Olives: before an extreme distress, the possibility of maintaining absolute trust in the Father.",
+imageLocation:"assets/Mysteries/Sorrowful/first.jpg",
+B1:"Jesus and His Apostles go to Gethsemane to pray. Mt. 26:36",
+B2:"With Peter, James and John, He enters the olive grove. Mt. 26:37",
+B3:"'My soul is sorrowful unto death.' Mt. 26:38",
+B4:"'Father, if it be Thy will, let this cup pass from Me.' Mt. 26:39",
+B5:"'Yet, not My will, but Thine be done.' Mt. 26:39",
+B6:"'Could you not watch one hour with Me?' Mt. 26:40",
+B7:"'Watch and pray that you enter not into temptation.' Mt. 26:41",
+B8:"Judas betrays Jesus with a kiss. Mt. 26:48",
+B9:"'Having seized Jesus, they led Him away to the high priest’s house.' Lk. 22:54",
+B10:"His disciples abandon Him. Mt. 26:56"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"The Scourging at the Pillar"}}, {MysteryName:"The Scourging at the Pillar",MysteryType:"Sorrowful",MysteryNumber:"2",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 19,1 Pilate's next move was to take Jesus and have him scourged",
-Contemplation:"Let us contemplate the Flagellation of Jesus: before physical and moral sorrow, the possibility of sustaining ourselves in the dignity of being children of God."}  , { });
+Contemplation:"Let us contemplate the Flagellation of Jesus: before physical and moral sorrow, the possibility of sustaining ourselves in the dignity of being children of God.",
+imageLocation:"assets/Mysteries/Sorrowful/second.jpg",
+B1:"Before the high priest Annas, one of the guards strikes Jesus in the face. Jn. 18:22",
+B2:"Annas sends Jesus, bound, to the high priest Caiphas. Jn. 18:24",
+B3:"They sought false witnesses against Jesus that they might put Him to death. Mt. 26:59",
+B4:"Peter denies three times that he is a disciple of Jesus. Jn. 18:17,25,27",
+B5:"Jesus is brought before Pilate, for only he can issue a death sentence. Jn. 18:31",
+B6:"Pilate can find no guilt in Jesus. Jn. 18:39",
+B7:"To appease the Jews, Pilate has Jesus scourged. Jn. 19:1",
+B8:"'It was our infirmities that He bore, our sufferings that He endured.' Is. 53:4",
+B9:"'He was pierced for our offenses, crushed for our sins.' Is. 53:5",
+B10:"'By His stripes we were healed'. Is. 53:5"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"Crowning with Thorns"}},  {MysteryName:"Crowning with Thorns",MysteryType:"Sorrowful",MysteryNumber:"3",Verses:"",Matthew:"Matthew 27,28-29 They stripped off his clothes and wrapped him in a scarlet military cloak. Weaving a crown out of thorns they fixed it on his head, and stuck a reed in his right hand.",Mark:"",Luke:"",John:"",
-Contemplation:" Let us contemplate the Crowning of thorns: before humiliations, the possibility of living humility."}  , { });
+Contemplation:" Let us contemplate the Crowning of thorns: before humiliations, the possibility of living humility.",
+imageLocation:"assets/Mysteries/Sorrowful/third.jpg",
+B1:"Jesus answers Pilate that He is a king, but His kingdom is not of this world. Jn. 18:36",
+B2:"In mockery the soldiers place a crown of thorns on His head. Mt. 27:29",
+B3:"They put a reed in His right hand, a symbol of authority. Mt. 27:29",
+B4:"They kneel before Him in derision: 'Hail, King of the Jews.' Mt. 27:29",
+B5:"They spit on Him and taking the reed, strike Him on the head. Mt. 27:30",
+B6:"Pilate presents Jesus to the crowd and says 'Behold the Man.' Jn. 19:5",
+B7:"The crowd shouts: 'Crucify Him! Crucify Him!' Jn. 19:6",
+B8:"Pilate asks: 'Shall I crucify your King?' Jn. 19:15",
+B9:"They respond: 'We have no king but Caesar.' Jn. 19:15",
+B10:"'Though He was harshly treated, He submitted, and opened not His mouth.' Is. 53:7"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"Carrying of the Cross"}},  {MysteryName:"Carrying of the Cross",MysteryType:"Sorrowful",MysteryNumber:"4",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 19,17 ...carrying the cross by himself, he went out to what is called the Place of the Skull in Hebrew, Golgotha",
-Contemplation:"Let us contemplate Jesus carrying the Cross: before our own cross, to sustain it and transform it."}  , { });
+Contemplation:"Let us contemplate Jesus carrying the Cross: before our own cross, to sustain it and transform it.",
+imageLocation:"assets/Mysteries/Sorrowful/fourth.jpg",
+B1:"Jesus carries His Cross to Calvary. Jn. 19:17",
+B2:"'He who does not carry his cross and follow Me, cannot be My disciple.' Lk. 14:27",
+B3:"'Take My yoke upon you… your souls will find rest.' Mt. 11:29",
+B4:"'My yoke is easy, and My burden light.' Mt. 11:30",
+B5:"'He who loses his life for My sake will find it.'  Mt. 10:39",
+B6:"What we suffer now can never compare to the glory that awaits us. Rom. 8:18",
+B7:"Simon the Cyrenean helps Jesus carry the Cross to Calvary. Lk. 23:26",
+B8:"'Weep not for Me, but for your children.' Lk. 23: 28",
+B9:"'God forbid that I should glory, save in the cross of Christ.' Gal. 6:14",
+B10:"The worldly person is an 'enemy of the Cross of Christ.' Phil. 3:18"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"The Crucifixion"}},  {MysteryName:"The Crucifixion",MysteryType:"Sorrowful",MysteryNumber:"5",Verses:"",Matthew:"",Mark:"",Luke:"Luke 23,46 Jesus uttered a loud cry and said 'Father, into your hands I commend my spirit. After he said this, he expired.",John:"",
-Contemplation:"Let us contemplate the Crucifixion: with our own sacrifice, to unite to God, making a bridge between Heaven and Earth."}  , { });
+Contemplation:"Let us contemplate the Crucifixion: with our own sacrifice, to unite to God, making a bridge between Heaven and Earth.",
+imageLocation:"assets/Mysteries/Sorrowful/fifth.jpg",
+B1:"Jesus is nailed to the Cross. Lk. 23:33",
+B2:" He prays: 'Father, forgive them…' Lk. 23:34",
+B3:"Jesus says to the repentant thief: 'This day you will be with Me in paradise.' Lk. 23:43",
+B4:"Looking down at Mary His Mother, He says: 'Woman, there is your son.' Jn. 19:26",
+B5:"Looking at the beloved disciple, He says: 'There is your Mother.' Jn. 19:27",
+B6:"Jesus endures the terrible torture of the Cross for three hours. Mt. 27:45",
+B7:"Nature itself seemed in mourning, for darkness covered the earth. Mt. 27:45",
+B8:"'There is no greater love than this: to lay down one’s life for one’s friends.' Jn. 15:13",
+B9:"Having completed His redeeming mission,  Jesus cried out: 'It is finished.' Jn. 19:30",
+B10:"'Father, into Your hands, I commend My spirit.' Lk. 23:46"}  , { });
 
 
 db.Rosary.insert({MysteryName:"The Resurrection",MysteryType:"Glorious",MysteryNumber:"1",Verses:"",Matthew:"",Mark:"Mark 16,6 You need not be amazed! You are looking for Jesus of Nazareth, the one who was crucified.He has been raised up; he is not here. See the place where they laid him",Luke:"",John:""});
@@ -46,15 +160,74 @@ db.Rosary.insert({MysteryName:"The Assumption of the Blessed Virgin Mary",Myster
 db.Rosary.insert({MysteryName:"The Coronation of the Blessed Virgin Mary",MysteryType:"Glorious",MysteryNumber:"5",Verses:"Judith 15, 9-10 You are the glory of Jerusalem...you are the splendid boast of our people ... God is pleased with what you have wrought. May you be blessed by the Lord Almighty forever and ever.",Matthew:"",Mark:"",Luke:"",John:""});
 
 db.Rosary.update({MysteryName: {$eq:"The Resurrection"}},  {MysteryName:"The Resurrection",MysteryType:"Glorious",MysteryNumber:"1",Verses:"",Matthew:"",Mark:"Mark 16,6 You need not be amazed! You are looking for Jesus of Nazareth, the one who was crucified.He has been raised up; he is not here. See the place where they laid him",Luke:"",John:"",
-Contemplation:"Let us contemplate the Resurrection of Jesus that brought us the consciousness of Eternal Life."}  , { });
+Contemplation:"Let us contemplate the Resurrection of Jesus that brought us the consciousness of Eternal Life.",
+imageLocation:"assets/Mysteries/Glorious/first.jpg",
+B1:"Jesus is risen from the dead. Lk. 24:6",
+B2:"He appeared to the apostles and says: 'Peace be with you.' Jn. 20:19",
+B3:"He then appeared to more than five hundred at one time. 1 Cor. 15:6",
+B4:"If Christ is not risen, then our faith is useless. 1 Cor 15:14",
+B5:"Thomas declares: 'Unless I see I will not believe.' Jn. 20:25",
+B6:"'Blessed are they who have not seen and have believed.' Jn. 20:29",
+B7:"'He who believes and is baptized will be saved.' Mk. 16:16",
+B8:"Faith is a gift of God. Eph. 2:8",
+B9:"'He who believes in Me will never die.' Jn. 11:26",
+B10:"'Lord, I do believe, help my unbelief.' Mk. 9:23"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"The Ascension"}}, {MysteryName:"The Ascension",MysteryType:"Glorious",MysteryNumber:"2",Verses:"",Matthew:"",Mark:"Mark 16,19 Then after speaking to them, the Lord Jesus was taken up into Heaven and took his seat at God's right hand.",Luke:"",John:"",
-Contemplation:" Let us contemplate the Ascension of Jesus that shows us the joy and the glory of the return to the True Dwelling."}  , { });
+Contemplation:" Let us contemplate the Ascension of Jesus that shows us the joy and the glory of the return to the True Dwelling.",
+imageLocation:"assets/Mysteries/Glorious/second.jpg",
+B1:"'I am going to My Father and your Father, to My God and your God.' Jn. 20:17",
+B2:"'I go to prepare a place for you.' Jn. 14:2",
+B3:"'That where I am, there you also may be.'  Jn. 14:3",
+B4:"'Make disciples of all nations.' Mt. 28:19",
+B5:"'There shall be one fold and one shepherd.'  Jn. 10:16",
+B6:"'I am with you all days.' Mt. 28:20",
+B7:"'You have not chosen Me, I have chosen you.' Jn. 15:16",
+B8:"'I am the way, the Truth, and the Life.' Jn. 14:6",
+B9:"Jesus ascends to the right hand of His Father. Mk. 16:19",
+B10:"'I will draw all men to Myself.' Jn. 12:32"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"Descent of the Holy Spirit"}},  {MysteryName:"Descent of the Holy Spirit",MysteryType:"Glorious",MysteryNumber:"3",Verses:"Acts 2, 4 All were filled with the Holy Spirit. They began to express themselves in foreign tongues and make bold proclamation as the Spirit prompted them.",Matthew:"",Mark:"",Luke:"",John:"",
-Contemplation:"Let us contemplate the coming of the Holy Spirit that opened to us the possibility to receive this Divine Flame."}  , { });
+Contemplation:"Let us contemplate the coming of the Holy Spirit that opened to us the possibility to receive this Divine Flame.",
+imageLocation:"assets/Mysteries/Glorious/third.jpg",
+B1:"The Apostles and Mary were together in prayer. Acts 2:1",
+B2:"A sound from heaven filled the whole house. Acts 2:2",
+B3:"Suddenly tongues of fire rested on each of them. Acts 2:3",
+B4:"They were filled with the Holy Spirit. Acts 2:4",
+B5:"Men of every nation understood them in their own language. Acts 2:6",
+B6:"They were strengthened to preach the Gospel without fear. Acts 4:19",
+B7:"Peter declared: 'God has made both Lord and Messiah, this Jesus whom you crucified.' Acts 2:36",
+B8:"You are children of God because of your faith in Jesus. Gal. 3:26",
+B9:"Love one another. Jn. 15:12",
+B10:"Love your enemies. Mt. 5:44"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"The Assumption of the Blessed Virgin Mary"}},  {MysteryName:"The Assumption of the Blessed Virgin Mary",MysteryType:"Glorious",MysteryNumber:"4",Verses:"Revelations 12,1 A great sign appeared in the sky, a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars.",Matthew:"",Mark:"",Luke:"",John:"",
-Contemplation:"Let us contemplate the Assumption of Mary that brought us the example and the consciousness of Her Immaculate Purity."}  , { });
+Contemplation:"Let us contemplate the Assumption of Mary that brought us the example and the consciousness of Her Immaculate Purity.",
+imageLocation:"assets/Mysteries/Glorious/fourth.jpg",
+B1:"'You will not suffer your faithful one to undergo corruption.' Ps. 16:10",
+B2:"'You are the glory of Jerusalem. You are the splendid boast of our people.' Jud. 15:9",
+B3:"'Arise, My beloved, My beautiful one, and come.' S. of S. 2:10",
+B4:"'You are all‑beautiful… and there is no blemish in you.' S. of S. 4:7",
+B5:"'The Queen takes her place at Your right hand.' Ps. 45: 10",
+B6:"'Blessed are you, daughter… above all women on earth.' Jud. 13:18",
+B7:"'Hail, full of grace, the Lord is with you.'  Lk. 1:28",
+B8:"If we are likened to Christ in His death, so shall we be in His resurrection. Rom. 6:5",
+B9:"'I shall return to take you with Me.' Jn. 14:3",
+B10:"'God’s temple in heaven opened, and there was seen the ark of His covenant.' Apoc. 11:19"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"The Coronation of the Blessed Virgin Mary"}},  {MysteryName:"The Coronation of the Blessed Virgin Mary",MysteryType:"Glorious",MysteryNumber:"5",Verses:"Judith 15, 9-10 You are the glory of Jerusalem...you are the splendid boast of our people ... God is pleased with what you have wrought. May you be blessed by the Lord Almighty forever and ever.",Matthew:"",Mark:"",Luke:"",John:"",
-Contemplation:"Let us contemplate the Coronation of Mary, recognizing and honoring Her as Our Queen, the Intercessor of souls."}  , { });
+Contemplation:"Let us contemplate the Coronation of Mary, recognizing and honoring Her as Our Queen, the Intercessor of souls.",
+imageLocation:"assets/Mysteries/Glorious/fifth.jpg",
+B1:"'A great sign appeared in heaven: a woman clothed with the sun.' Apoc. 12:1",
+B2:"'The moon was under her feet, and on her head a crown of twelve stars.' Apoc. 12:1",
+B3:"'In the highest heavens did I dwell, my throne on a pillar of cloud' Sir. 24:4",
+B4:"'I am the mother of pure love' Sir. 24:24",
+B5:"'I am the mother of knowledge.' Sir. 24:24",
+B6:"'I am the mother of hope.' Sir. 24:24",
+B7:"Mary is Queen Mother of Him who 'shall reign in the house of Jacob forever.' Lk. 1:32",
+B8:"'Those who seek Me find Me.' Prov. 8:17",
+B9:"'He who serves Me will never fail.' Sir. 24:21",
+B10:"'He who finds Me finds life.' Prov. 8:35"}  , { });
 
 
 db.Rosary.insert({MysteryName:"Baptism of Jesus",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"Matthew 3, 16-17 After Jesus was baptized, he came directly out of the water. Suddenly the sky opened and he saw the Spirit of God descend like a dove and hover over him. With that a voice from the heavens said, This is my beloved Son. My favor rests on him.",Mark:"",Luke:"",John:""});
@@ -64,15 +237,69 @@ db.Rosary.insert({MysteryName:"The Transfiguration",MysteryType:"Luminous",Myste
 db.Rosary.insert({MysteryName:"Institution of the Holy Eucharist",MysteryType:"Luminous",MysteryNumber:"",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,19-20 Taling bread and giving thanks, he broke it and gave it to them saying , 'This is my body to be given for you. Do this as a remembrance of me.' He did the same with the cup after eating, saying as he did so: 'This cup is the new covenant in my blood, which will be shed for you.'",John:""});
 
 db.Rosary.update({MysteryName: {$eq:"Baptism of Jesus"}},  {MysteryName:"Baptism of Jesus",MysteryType:"Luminous",MysteryNumber:"1",Verses:"",Matthew:"Matthew 3, 16-17 After Jesus was baptized, he came directly out of the water. Suddenly the sky opened and he saw the Spirit of God descend like a dove and hover over him. With that a voice from the heavens said, This is my beloved Son. My favor rests on him.",Mark:"",Luke:"",John:"",
-Contemplation:"Let us contemplate the Baptism of Jesus: here we are before the offer that our vibrations are bathed by the Spirit of God."}  , { });
+Contemplation:"Let us contemplate the Baptism of Jesus: here we are before the offer that our vibrations are bathed by the Spirit of God.",
+B1:"A voice cries out in the wilderness. Mk. 1:3",
+B2:"John the Baptist preaches repentance. Mt. 3:1-2",
+B3:"John proclaims that One is coming 'the thong of whose sandals I am not worthy to unloose.' Mk. 1:7",
+B4:"Jesus approaches John to be baptized. Mt. 3:13",
+B5:"John protests that Jesus should be the one baptizing him instead. Mt. 3:14",
+B6:"Jesus answers that it must be so for now. Mt. 3:15",
+B7:"The heavens open; the Spirit descends. Mt. 3:16",
+B8:"A voice from heaven says, 'This is my beloved Son, in whom I am well pleased.' Mt. 3:17",
+B9:"There is One Lord, One Faith, One Baptism. Eph. 4:5",
+B10:"We were baptized into His death in order to be raised to new life in Him. Rm. 6:4"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"Wedding Feast of Cana"}},  {MysteryName:"Wedding Feast of Cana",MysteryType:"Luminous",MysteryNumber:"2",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 2,1-5 There was a wedding at Cana in Galilee, and the Mother of Jesus was there...At a certain point the wine ran out, and Jesus' mother told him, 'They have no more wine.' ... His mother instructed those waiting on table, 'Do whatever he tells you.'",
-Contemplation:"Let us contemplate the Wedding at Cana, in which Christ transformed water into wine: here we are before the opportunity to recognize in ourselves the capacity to transform the situations of life."} , { });
+Contemplation:"Let us contemplate the Wedding at Cana, in which Christ transformed water into wine: here we are before the opportunity to recognize in ourselves the capacity to transform the situations of life.",
+B1:"There was a marriage in Cana in Galilee. Jn. 2:1",
+B2:"The wine runs out. Mary intercedes. Jn. 2:3",
+B3:"Jesus replies that His hour has not yet come. Jn. 2:4",
+B4:"Mary tells the servants to do whatever He asks. Jn. 2:5",
+B5:"Jesus asks the jars of water be filled. Jn. 2:6",
+B6:"The steward marvels that the best wine has been served last. Jn. 2:10",
+B7:"This was the first of His signs. Jn. 2:11",
+B8:"'I will espouse thee to Me in faith.' Hos. 2:20",
+B9:"'Husbands, love your wives, as Christ also loved the Church' Eph. 5:25",
+B10:"'Blessed are they that are called to the marriage supper of the Lamb.' Rev. 19:9"} , { });
+
 db.Rosary.update({MysteryName: {$eq:"Proclamation of the Kingdom of God"}},  {MysteryName:"Proclamation of the Kingdom of God",MysteryType:"Luminous",MysteryNumber:"3",Verses:"",Matthew:"",Mark:"Mark 1,14-15 Jesus appeared in Galilee proclaiming the good news of God: 'This is the time of fulfillment The reign of God is at hand! Reform your lives and believe in the gospel!'",Luke:"",John:"",
-Contemplation:"Let us contemplate Jesus announcing the Kingdom of God: here we are before the vows in order that our lives may express spiritual virtues, following the Laws of God."}  , { });
+Contemplation:"Let us contemplate Jesus announcing the Kingdom of God: here we are before the vows in order that our lives may express spiritual virtues, following the Laws of God.",
+B1:"Jesus proclaims, 'The Kingdom of God is at hand: repent, and believe the Gospel.' Mk. 1:15",
+B2:"Jesus preaches the Kingdom in Galilee. Mt. 4:23",
+B3:"Jesus teaches the Beatitudes to the crowds.  Mt. 5:1-12",
+B4:"Jesus commands His believers to be salt of the earth and the light of the world. Mt. 5:13-16",
+B5:"It is not enough to say 'Lord, Lord,' but one must do the will of the Father. Mt. 7:21-23",
+B6:"Jesus sends His disciples to preach and say, 'The kingdom of heaven is at hand.' Mt. 10:7",
+B7:"'To other cities also I must preach the kingdom of God: for therefore am I sent.' Lk. 4:43",
+B8:"If we do not receive the kingdom of God like a little child, neither shall we enter it. Mk. 10:15'",
+B9:"Jesus sends the disciples out to preach the kingdom and heal the sick. Lk. 9:2",
+B10:"The Apostles preach the Risen Christ. Acts 2:32"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"The Transfiguration"}},  {MysteryName:"The Transfiguration",MysteryType:"Luminous",MysteryNumber:"4",Verses:"",Matthew:"Matthew 17,1-2 Jesus took Peter, James and his brother John and led them up on a high mountain by themselves. He was transfigured before their eyes. His face became as dazzling as the sun, his clothes as radiant as light.",Mark:"",Luke:"",John:"",
-Contemplation:"Let us contemplate the Transfiguration of Jesus: here we are before the possibility of, one day, seeing our true face, our true Being."}  , { });
+Contemplation:"Let us contemplate the Transfiguration of Jesus: here we are before the possibility of, one day, seeing our true face, our true Being.",
+B1:"Jesus takes Peter, James, and John up to a high mountain by themselves. Mt. 17:1",
+B2:"He is transfigured before them; His face shines like the sun, and His garments shine like light. Mt. 17:2",
+B3:"Suddenly, Moses and Elijah appear. Mk. 9:4",
+B4:"Peter asks to build three tents. Mt. 17:4",
+B5:"As Peter speaks, a cloud descends over them, and the apostles become afraid. Mt. 9:34",
+B6:"A voice proclaims of Jesus: 'This is My beloved Son, in whom I am well pleased.' Mt. 17:5",
+B7:"The disciples become utterly terrified. Mt. 17:6",
+B8:"Jesus tells His disciples to rise, and to not be afraid. Mt. 17:7",
+B9:"As we share in Christ’s sufferings, so shall we share in His glory. 1 Pt. 4:15",
+B10:"The disciples rejoice to be found worthy to suffer for the sake of His name. Acts 5:41"}  , { });
+
 db.Rosary.update({MysteryName: {$eq:"Institution of the Holy Eucharist"}},  {MysteryName:"Institution of the Holy Eucharist",MysteryType:"Luminous",MysteryNumber:"5",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,19-20 Taling bread and giving thanks, he broke it and gave it to them saying , 'This is my body to be given for you. Do this as a remembrance of me.' He did the same with the cup after eating, saying as he did so: 'This cup is the new covenant in my blood, which will be shed for you.'",John:"",
-Contemplation:"Let us contemplate the Last Supper, when Christ gives us His Body and His Blood, symbolized by the bread and by the wine: here we are before the Communion with Christ, living His Love, His Forgiveness, His Redemption."}  , { });
+Contemplation:"Let us contemplate the Last Supper, when Christ gives us His Body and His Blood, symbolized by the bread and by the wine: here we are before the Communion with Christ, living His Love, His Forgiveness, His Redemption.",
+B1:"The Feast of Unleavened Bread, also called the Passover, drew near. Lk. 22:1",
+B2:"Jesus sends His disciples to make preparations for the Passover. Mt. 26:17-18",
+B3:"When evening arrives, Jesus reclines at table with them. Mt. 26:19-20",
+B4:"Jesus tells the disciples that He will not share in the Passover again until all is fulfilled. Lk. 22:16",
+B5:"Our Lord washes the feet of His disciples.  Jn. 13:5-6",
+B6:"Jesus took the bread, broke it, and gave it to His disciples, saying 'This is My Body.' Lk. 22:19",
+B7:"In a similar way, He took the chalice and said, “This is My Blood.” Lk. 22:20",
+B8:"'Amen, amen, I say unto you: Except that you eat of the flesh of the Son of Man, and drink His blood, you shall not have life in you.' Jn. 6:53",
+B9:"For the chalice and bread is a communion in the blood and body of the Lord. 1 Cor. 10:16",
+B10:"When we eat this bread, and drink this cup, we proclaim His death, until He comes. 1 Cor. 11:26"}  , { });
 
 
 

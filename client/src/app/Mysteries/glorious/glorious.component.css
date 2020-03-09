@@ -6,6 +6,47 @@
     background-color: #F6FCFC;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#phamplet{
+  background-color: #F6FCFC;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.title-center{
+  text-align: center;
+}
+
+.importantBold{
+  font-weight: bold;
+}
+
+.pageTitle{
+  font-weight: bolder;
+}
+
+.verse{
+  font-style: oblique;
+  font-weight: 550;
+}
+
+.response{
+  font-style: italic;
+  font-weight: 550;
+}
+
+.litany{
+  list-style-type:none;
+}
+
 @media only screen and (max-width: 600px) {
     #phamplet {
       background-color: red;

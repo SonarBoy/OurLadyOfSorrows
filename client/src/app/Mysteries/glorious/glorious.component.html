@@ -133,31 +133,61 @@
           
 
             <div class="col-auto d-none d-lg-block ">
-                <img class="bd-placeholder-img"  src="" height="250" width="200">
+                <img class="bd-placeholder-img"  src={{item.imageLocation}} height="250" width="200">
 
             </div>
 
            <div class="col p-4 d-flex flex-column position-static">
             
             <div [ngSwitch]="item.MysteryNumber">
-            <h2 *ngSwitchCase="1">The First {{item.MysteryType}} Mystery</h2>
+            <h2 *ngSwitchCase="1">The First {{item.MysteryType}} Mystery </h2>
             <h2 *ngSwitchCase="2">The Second {{item.MysteryType}} Mystery</h2>
             <h2 *ngSwitchCase="3">The Third {{item.MysteryType}} Mystery</h2>
             <h2 *ngSwitchCase="4">The Fourth {{item.MysteryType}} Mystery</h2>
             <h2 *ngSwitchCase="5">The Fifth {{item.MysteryType}} Mystery</h2>
             </div>
 
+            <br>
+            <br>
+
             <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">{{item.MysteryName}}</strong></h3>
             <div class="mb-1 text-muted"></div>
-            <p *ngIf="item.Matthew != ''" class="card-text mb-auto">{{item.Matthew}}</p>
-            <p *ngIf="item.Mark != ''" class="card-text mb-auto">{{item.Mark}}</p>
-            <p *ngIf="item.Luke != ''" class="card-text mb-auto">{{item.Luke}}</p>
-            <p *ngIf="item.John != ''" class="card-text mb-auto">{{item.John}}</p>
-            <p *ngIf="item.Verses != ''" class="card-text mb-auto">{{item.Verses}}</p>
-            <p class="card-text mb-auto">{{item.Contemplation}}</p>
+            
+            <p *ngIf="item.Matthew != ''" class="card-text mb-auto importantBold">{{item.Matthew}}</p>
+            <p *ngIf="item.Mark != ''" class="card-text mb-auto importantBold">{{item.Mark}}</p>
+            <p *ngIf="item.Luke != ''" class="card-text mb-auto importantBold">{{item.Luke}}</p>
+            <p *ngIf="item.John != ''" class="card-text mb-auto importantBold">{{item.John}}</p>
+            <p *ngIf="item.Verses != ''" class="card-text mb-auto importantBold">{{item.Verses}}</p>
+
+            <p></p>
+
+            <ol>
+              <li>{{item.B1}}</li>
+              <li>{{item.B2}}</li>
+              <li>{{item.B3}}</li>
+              <li>{{item.B4}}</li>
+              <li>{{item.B5}}</li>
+              <li>{{item.B6}}</li>
+              <li>{{item.B7}}</li>
+              <li>{{item.B8}}</li>
+              <li>{{item.B9}}</li>
+              <li>{{item.B10}}</li>
+            </ol>
+
+
+
+            
+            <p></p>
+
+            <p class="card-text mb-auto response">{{item.Contemplation}}</p>
+
+            <p></p>
 
             <div class="mb-1 text-muted"></div>
             <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
+
+            <p></p>
+
             <h4 class="mb-0">For the virtue of faith.</h4>
             
           </div>
