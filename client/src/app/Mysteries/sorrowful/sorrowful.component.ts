@@ -30,7 +30,7 @@ export class SorrowfulComponent implements OnInit {
         console.log(data);
         this.sorrowfulMystery = data.sorrowfulList; 
       }else{
-        this.sorrowfulMystery =null;
+        this.sorrowfulMystery = null;
       }
 
     });

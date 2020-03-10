@@ -328,3 +328,14 @@ db.Saints.update( {Name: {$eq: "St Paul"}},{Name : "St Paul", Age: 46},{})
 
 
 db.Saints.deleteOne({ "_id": {$eq : ObjectId("5e589b8545f9246560fcaf29")}})
+
+mongoexport -h 127.0.0.1:27017 -u Joshua -p testerPassword -d OurLadyOfSorrows -c Rosary  -o tester.json --jsonArray
+
+mongoexport -h [127.0.0.1:27017] -d [OurLadyOfSorrows] -c [Rosary]  -o [tester.json] --jsonArray
+
+
+db.createUser({
+    user: 'Joshua',
+    pwd: 'testerPassword',
+    roles: [{ role: 'readWrite', db:'OurLadyOfSorrows'}]
+})
