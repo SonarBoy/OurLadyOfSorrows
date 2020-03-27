@@ -19,8 +19,6 @@ export class UserListService {
     })
   }
 
-
-
   constructor(private http: HttpClient) { }
   
   public getList(): Observable<any>{
