@@ -1,9 +1,12 @@
 <body>
 
-    <main class="container ">
- 
-        <div class="row col-md-offset-10 col-md-3">
+    <main class="container">
+        <div class="row justify-content-center">
             <h1>Please Login</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            
             <form class="loginform" #loginform="ngForm" (submit)="onLoginSubmit()">
                 <fieldset class="form-group">
                     <label for="username">Username:</label>
@@ -33,5 +36,5 @@
             </form>
         </div>
     </main>
-
+</body>
 

@@ -339,3 +339,7 @@ db.createUser({
     pwd: 'testerPassword',
     roles: [{ role: 'readWrite', db:'OurLadyOfSorrows'}]
 })
+
+
+db.dropDatabase()
+{ "dropped" : "test", "ok" : 1 } 

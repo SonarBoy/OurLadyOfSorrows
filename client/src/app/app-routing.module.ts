@@ -13,6 +13,7 @@ import { UserDeleteComponent } from './user/user-delete/user-delete.component';
 import { PageNotFoundComponent } from './util-pages/page-not-found/page-not-found.component';
 import { RegisterComponent } from './util-pages/register/register.component';
 import { AuthGuardGuard } from './guards/auth-guard.guard';
+import { SayRosaryComponent } from './util-pages/say-rosary/say-rosary.component';
 
 const routes: Routes=[
 
@@ -32,6 +33,7 @@ const routes: Routes=[
   {path: 'sorrowful',component: SorrowfulComponent},
   {path: 'glorious',component: GloriousComponent},
   {path: 'luminous',component: LuminousComponent},
+  {path: 'Rosary',component: SayRosaryComponent},
 
   
   {path:'**',component: PageNotFoundComponent, pathMatch: 'full'}

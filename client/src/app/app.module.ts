@@ -22,6 +22,7 @@ import {JwtModule,JwtHelperService, JwtInterceptor} from '@auth0/angular-jwt';
 import { PageNotFoundComponent } from './util-pages/page-not-found/page-not-found.component';
 import { RegisterComponent } from './util-pages/register/register.component';
 import { AuthGuardGuard } from './guards/auth-guard.guard';
+import { SayRosaryComponent } from './util-pages/say-rosary/say-rosary.component';
 
 
 export function jwtTokenGetter(){
@@ -45,7 +46,8 @@ export function jwtTokenGetter(){
     UserDetailsComponent,
     UserDeleteComponent,
     PageNotFoundComponent,
-    RegisterComponent
+    RegisterComponent,
+    SayRosaryComponent
   ],
   imports: [
     BrowserModule,
