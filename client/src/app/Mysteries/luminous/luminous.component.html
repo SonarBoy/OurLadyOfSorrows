@@ -20,168 +20,38 @@
     </div>
     -->
   
+       <!-- BEST CODE-->
 
-    <div class="col-xs-12 col-md-8 container" >
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
-
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img"  src="assets/Mysteries/Luminous/first.jpg" height="250" width="200">
-
-            </div>
-
-           <div class="col p-4 d-flex flex-column position-static">
-            <h2 class="mb-0">The First Luminous Mysteries</h2>
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">Baptism of Jesus</strong></h3>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
-            <h4 class="mb-0">For submission to God's will.</h4>
-            
-          </div>
+       <div   *ngFor="let item of luminousMystery"  class="container" >
+        <div class="row  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 " id="cardItem">
+  
           
-        </div>
-      </div>
-     
-      <div class="col-xs-12 col-md-8 container" >
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
-
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img"  src="assets/Mysteries/Luminous/second.jpg" height="250" width="200">
-
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 order-1 ">
+                <img class="img-thumbnail"  src={{item.imageLocation}} height="100%" width="100%">
+  
+            </div>
+  
+           <div class="col-12 col-sm-12 col-md-8 col-lg-9 order-2 ">
+            <div  class="" [ngSwitch]="item.MysteryNumber">
+              <h2 *ngSwitchCase="1">The First {{item.MysteryType}} Mystery </h2>
+              <h2 *ngSwitchCase="2">The Second {{item.MysteryType}} Mystery</h2>
+              <h2 *ngSwitchCase="3">The Third {{item.MysteryType}} Mystery</h2>
+              <h2 *ngSwitchCase="4">The Fourth {{item.MysteryType}} Mystery</h2>
+              <h2 *ngSwitchCase="5">The Fifth {{item.MysteryType}} Mystery</h2>
             </div>
 
-           <div class="col p-4 d-flex flex-column position-static">
-            <h2 class="mb-0">The Second Luminous Mysteries</h2>
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">The Wedding Feast at Canna</strong></h3>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
-            <h4 class="mb-0">For devotion to Mary.</h4>
-            
-          </div>
-          
-        </div>
-      </div>
+            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading response">{{item.MysteryName}}</strong></h3>
 
-      <div class="col-xs-12 col-md-8 container" >
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
-
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img"  src="assets/Mysteries/Luminous/third.jpg" height="250" width="200">
-
-            </div>
-
-           <div class="col p-4 d-flex flex-column position-static">
-            <h2 class="mb-0">The Third Luminous Mysteries</h2>
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">Proclamation of the Kingdom of God</strong></h3>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
-            <h4 class="mb-0">For holy fear of God.</h4>
-            
-          </div>
-          
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-8 container" >
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
-
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img"  src="assets/Mysteries/Luminous/fourth.jpg" height="250" width="200">
-
-            </div>
-
-           <div class="col p-4 d-flex flex-column position-static">
-            <h2 class="mb-0">The Fourth Luminous Mysteries</h2>
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">The Transfiguration</strong></h3>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
-            <h4 class="mb-0">For thanksgiving to God.</h4>
-            
-          </div>
-          
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-8 container" >
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-
-
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img"  src="assets/Mysteries/Luminous/fifth.jpg" height="250" width="200">
-
-            </div>
-
-           <div class="col p-4 d-flex flex-column position-static">
-            <h2 class="mb-0">The Fifth Luminous Mysteries</h2>
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">Institution of the Holy Eucharist</strong></h3>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
-            <h4 class="mb-0">For eternal salvation.</h4>
-            
-          </div>
-          
-        </div>
-      </div>
-
-
-
-      <div *ngFor="let item of luminousMystery" class="col-xs-12 col-md-8 container" >
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" id="cardItem">
-          
-
-            <div class="col-auto d-none d-lg-block ">
-                <img class="bd-placeholder-img"  src={{item.imageLocation}} height="250" width="200">
-
-            </div>
-
-           <div class="col p-4 d-flex flex-column position-static">
-            
-            <div [ngSwitch]="item.MysteryNumber">
-            <h2 *ngSwitchCase="1">The First {{item.MysteryType}} Mystery </h2>
-            <h2 *ngSwitchCase="2">The Second {{item.MysteryType}} Mystery</h2>
-            <h2 *ngSwitchCase="3">The Third {{item.MysteryType}} Mystery</h2>
-            <h2 *ngSwitchCase="4">The Fourth {{item.MysteryType}} Mystery</h2>
-            <h2 *ngSwitchCase="5">The Fifth {{item.MysteryType}} Mystery</h2>
-            </div>
-
-            <br>
-            <br>
-
-            <h3 class="mb-0"><strong class="d-inline-block mb-2 text-primary pannel-heading">{{item.MysteryName}}</strong></h3>
-            <div class="mb-1 text-muted"></div>
-            
             <p *ngIf="item.Matthew != ''" class="card-text mb-auto importantBold">{{item.Matthew}}</p>
             <p *ngIf="item.Mark != ''" class="card-text mb-auto importantBold">{{item.Mark}}</p>
             <p *ngIf="item.Luke != ''" class="card-text mb-auto importantBold">{{item.Luke}}</p>
             <p *ngIf="item.John != ''" class="card-text mb-auto importantBold">{{item.John}}</p>
             <p *ngIf="item.Verses != ''" class="card-text mb-auto importantBold">{{item.Verses}}</p>
 
-            <p></p>
-
-            <ol>
+            <div class="mb-1 text-muted"></div>
+  
+  
+            <ol class="">
               <li>{{item.B1}}</li>
               <li>{{item.B2}}</li>
               <li>{{item.B3}}</li>
@@ -194,24 +64,15 @@
               <li>{{item.B10}}</li>
             </ol>
 
-
-
-            
-            <p></p>
-
-            <p class="card-text mb-auto response">{{item.Contemplation}}</p>
-
-            <p></p>
-
             <div class="mb-1 text-muted"></div>
             <p class="card-text mb-auto"><strong>One Our Father, Ten Hail Marys, One Glory Be</strong></p>
-
-            <p></p>
-
-            <h4 class="mb-0">For the virtue of faith.</h4>
+            <h4 class="mb-0">For eternal salvation.</h4>
             
           </div>
           
         </div>
+        <br>
+        <br>
+       
       </div>
 </body>

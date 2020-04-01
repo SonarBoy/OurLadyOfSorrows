@@ -238,6 +238,7 @@ db.Rosary.insert({MysteryName:"Institution of the Holy Eucharist",MysteryType:"L
 
 db.Rosary.update({MysteryName: {$eq:"Baptism of Jesus"}},  {MysteryName:"Baptism of Jesus",MysteryType:"Luminous",MysteryNumber:"1",Verses:"",Matthew:"Matthew 3, 16-17 After Jesus was baptized, he came directly out of the water. Suddenly the sky opened and he saw the Spirit of God descend like a dove and hover over him. With that a voice from the heavens said, This is my beloved Son. My favor rests on him.",Mark:"",Luke:"",John:"",
 Contemplation:"Let us contemplate the Baptism of Jesus: here we are before the offer that our vibrations are bathed by the Spirit of God.",
+imageLocation:"assets/Mysteries/Luminous/first.jpg",
 B1:"A voice cries out in the wilderness. Mk. 1:3",
 B2:"John the Baptist preaches repentance. Mt. 3:1-2",
 B3:"John proclaims that One is coming 'the thong of whose sandals I am not worthy to unloose.' Mk. 1:7",
@@ -251,6 +252,7 @@ B10:"We were baptized into His death in order to be raised to new life in Him. R
 
 db.Rosary.update({MysteryName: {$eq:"Wedding Feast of Cana"}},  {MysteryName:"Wedding Feast of Cana",MysteryType:"Luminous",MysteryNumber:"2",Verses:"",Matthew:"",Mark:"",Luke:"",John:"John 2,1-5 There was a wedding at Cana in Galilee, and the Mother of Jesus was there...At a certain point the wine ran out, and Jesus' mother told him, 'They have no more wine.' ... His mother instructed those waiting on table, 'Do whatever he tells you.'",
 Contemplation:"Let us contemplate the Wedding at Cana, in which Christ transformed water into wine: here we are before the opportunity to recognize in ourselves the capacity to transform the situations of life.",
+imageLocation:"assets/Mysteries/Luminous/second.jpg",
 B1:"There was a marriage in Cana in Galilee. Jn. 2:1",
 B2:"The wine runs out. Mary intercedes. Jn. 2:3",
 B3:"Jesus replies that His hour has not yet come. Jn. 2:4",
@@ -264,6 +266,7 @@ B10:"'Blessed are they that are called to the marriage supper of the Lamb.' Rev.
 
 db.Rosary.update({MysteryName: {$eq:"Proclamation of the Kingdom of God"}},  {MysteryName:"Proclamation of the Kingdom of God",MysteryType:"Luminous",MysteryNumber:"3",Verses:"",Matthew:"",Mark:"Mark 1,14-15 Jesus appeared in Galilee proclaiming the good news of God: 'This is the time of fulfillment The reign of God is at hand! Reform your lives and believe in the gospel!'",Luke:"",John:"",
 Contemplation:"Let us contemplate Jesus announcing the Kingdom of God: here we are before the vows in order that our lives may express spiritual virtues, following the Laws of God.",
+imageLocation:"assets/Mysteries/Luminous/third.jpg",
 B1:"Jesus proclaims, 'The Kingdom of God is at hand: repent, and believe the Gospel.' Mk. 1:15",
 B2:"Jesus preaches the Kingdom in Galilee. Mt. 4:23",
 B3:"Jesus teaches the Beatitudes to the crowds.  Mt. 5:1-12",
@@ -277,6 +280,7 @@ B10:"The Apostles preach the Risen Christ. Acts 2:32"}  , { });
 
 db.Rosary.update({MysteryName: {$eq:"The Transfiguration"}},  {MysteryName:"The Transfiguration",MysteryType:"Luminous",MysteryNumber:"4",Verses:"",Matthew:"Matthew 17,1-2 Jesus took Peter, James and his brother John and led them up on a high mountain by themselves. He was transfigured before their eyes. His face became as dazzling as the sun, his clothes as radiant as light.",Mark:"",Luke:"",John:"",
 Contemplation:"Let us contemplate the Transfiguration of Jesus: here we are before the possibility of, one day, seeing our true face, our true Being.",
+imageLocation:"assets/Mysteries/Luminous/fourth.jpg",
 B1:"Jesus takes Peter, James, and John up to a high mountain by themselves. Mt. 17:1",
 B2:"He is transfigured before them; His face shines like the sun, and His garments shine like light. Mt. 17:2",
 B3:"Suddenly, Moses and Elijah appear. Mk. 9:4",
@@ -290,6 +294,7 @@ B10:"The disciples rejoice to be found worthy to suffer for the sake of His name
 
 db.Rosary.update({MysteryName: {$eq:"Institution of the Holy Eucharist"}},  {MysteryName:"Institution of the Holy Eucharist",MysteryType:"Luminous",MysteryNumber:"5",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,19-20 Taling bread and giving thanks, he broke it and gave it to them saying , 'This is my body to be given for you. Do this as a remembrance of me.' He did the same with the cup after eating, saying as he did so: 'This cup is the new covenant in my blood, which will be shed for you.'",John:"",
 Contemplation:"Let us contemplate the Last Supper, when Christ gives us His Body and His Blood, symbolized by the bread and by the wine: here we are before the Communion with Christ, living His Love, His Forgiveness, His Redemption.",
+imageLocation:"assets/Mysteries/Luminous/fifth.jpg",
 B1:"The Feast of Unleavened Bread, also called the Passover, drew near. Lk. 22:1",
 B2:"Jesus sends His disciples to make preparations for the Passover. Mt. 26:17-18",
 B3:"When evening arrives, Jesus reclines at table with them. Mt. 26:19-20",
