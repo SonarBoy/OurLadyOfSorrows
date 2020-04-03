@@ -143,9 +143,11 @@ app.use('/api',indexRouter);
 //app.use('/api/galaxy',galaxyRouter);
 //app.use('/api/Users',usersRouter);
 
+
 app.get('*', (req, res) => {
   res.sendfile(path.join(__dirname, '../../public/index.html'));
 });
+
 
 
 /*

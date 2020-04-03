@@ -18,7 +18,7 @@ import { SayRosaryComponent } from './util-pages/say-rosary/say-rosary.component
 const routes: Routes=[
 
   //Utils Pages.
-  {path: '/',component: HomeComponent},
+  {path: '',component: HomeComponent},
   {path: 'home',component: HomeComponent},
   {path: 'login',component:LoginComponent, data: {title:'Login'}},
   {path: 'register', component:RegisterComponent, data:{title:'register'}},
