@@ -4,7 +4,7 @@
   "description": "Simple Rosary Application for Our Lady Of Sorrows.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "dependencies": {
     "@types/connect-flash": "0.0.34",
