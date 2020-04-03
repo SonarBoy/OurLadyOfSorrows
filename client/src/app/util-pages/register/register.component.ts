@@ -9,7 +9,7 @@ import { AuthService } from 'src/app/service/auth.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  private user: User;
+   user: User;
 
 
   constructor(
