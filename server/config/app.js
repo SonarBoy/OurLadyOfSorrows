@@ -135,7 +135,7 @@ passport.use(strategy);
 
 app.use('/api/Rosary', rosaryRouter);
 app.use('/api/Users',usersRouter);
-app.use('/api/',indexRouter);
+app.use('/api',indexRouter);
 
 
 //app.use('/users', usersRouter);
@@ -143,6 +143,9 @@ app.use('/api/',indexRouter);
 //app.use('/api/galaxy',galaxyRouter);
 //app.use('/api/Users',usersRouter);
 
+app.get('*', (req, res) => {
+  res.sendfile(path.join(__dirname, '../../public/index.html'));
+});
 
 
 /*
