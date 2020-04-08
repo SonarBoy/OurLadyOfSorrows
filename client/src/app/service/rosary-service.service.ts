@@ -8,9 +8,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class RosaryServiceService {
-  //private sorrowfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/sorrowful';
+  private sorrowfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/sorrowful';
   private joyfulPoint = 'http://localhost:3000/api/Rosary/joyful';
-  private sorrowfulPoint = 'http://localhost:3000/api/Rosary/sorrowful';
+  //private sorrowfulPoint = 'http://localhost:3000/api/Rosary/sorrowful';
   private gloriousPoint = 'http://localhost:3000/api/Rosary/glorious';
   private luminousPoint = 'http://localhost:3000/api/Rosary/luminous';
 
