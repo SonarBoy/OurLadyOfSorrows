@@ -38,7 +38,8 @@ var mongoose = require('mongoose');
 var db = require('./db');
 
 //STEP 3: Connect to the URI you specified in the db.js file
-mongoose.connect(db.URI);
+//mongoose.connect(db.URI);
+mongoose.connect(db.URI, {dbName: 'OurLadyOfSorrows'});
 
 //STEP 4: Create a mongo Object and use the connection from the previously specified step
 // The on function allows for error checking on the first connection try and will print out
