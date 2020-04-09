@@ -139,10 +139,6 @@ app.use('/api/Users',usersRouter);
 app.use('/api',indexRouter);
 
 
-//app.use('/users', usersRouter);
-//app.use('/api/celestialObjects',celestialObjectRouter);
-//app.use('/api/galaxy',galaxyRouter);
-//app.use('/api/Users',usersRouter);
 
 
 app.get('*', (req, res) => {
@@ -151,14 +147,7 @@ app.get('*', (req, res) => {
 
 
 
-/*
-app.use('/', indexRouter);
-app.use('/Planets',planetRouter);
-//app.use('/users', usersRouter);
-app.use('/celestialObjects',celestialObjectRouter);
-app.use('/galaxy',galaxyRouter);
-app.use('/Users',usersRouter);
-*/
+
 
 
 // TODO CAPTURE RANDOM LINKS
