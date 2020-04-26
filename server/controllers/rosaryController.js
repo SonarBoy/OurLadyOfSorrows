@@ -8,7 +8,10 @@ module.exports.displayJoyfulList = (request,response,next) =>{
     rosaryModel.find({'MysteryType':'Joyful'},(error,joyfulList) =>{
 
         if(error){
-            return console.log(error);
+            console.log(error);
+            let jsonData = require('./joyful.json');
+            joyfulList = jsonData;
+            response.json({success:true,msg:'Joyful List',joyfulList});
         }else{
             response.json({success:true,msg:'Joyful List',joyfulList});
         }
