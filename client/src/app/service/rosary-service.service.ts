@@ -9,22 +9,22 @@ import { Mystery } from '../model/mystery.model';
   providedIn: 'root'
 })
 export class RosaryServiceService {
-  /*
+  
   private joyfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/joyful';
   private sorrowfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/sorrowful';
   private gloriousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/glorious';
   private luminousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/luminous';
-  */
+  
 
   
   private __jsonURL = 'http://localhost:4200/assets/tester.json';
 
-  
+  /*
   private joyfulPoint = 'http://localhost:3000/api/Rosary/joyful';
   private sorrowfulPoint = 'http://localhost:3000/api/Rosary/sorrowful';
   private gloriousPoint = 'http://localhost:3000/api/Rosary/glorious';
   private luminousPoint = 'http://localhost:3000/api/Rosary/luminous';
-  
+  */
 
   private httpOptionsJoyful = {
     headers: new HttpHeaders({
