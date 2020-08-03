@@ -16,7 +16,9 @@ export class AuthService {
   user: User;
   private authToken: any;
 
-  private endpoint = "http://localhost:3000/api/";
+  
+  //private endpoint = "http://localhost:3000/api/";
+  private endpoint = "https://our-lady-of-sorrow.herokuapp.com/api/";
 
   private httpOptions = {
     headers: new HttpHeaders({
