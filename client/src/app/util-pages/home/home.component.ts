@@ -26,12 +26,18 @@ export class HomeComponent implements OnInit {
     
     if(verse === "Luke 2:34-35"){
 
-    this.value = `"Then Simeon blessed them and said to Mary, his mother: “This child is destined to cause the falling and 
-    rising of many in Israel, and to be a sign that will be spoken against, so that the thoughts of many hearts will 
-    be revealed. And a sword will pierce your own soul too.”"`;
+      this.value = `"Then Simeon blessed them and said to Mary, his mother: “This child is destined to cause the falling and 
+      rising of many in Israel, and to be a sign that will be spoken against, so that the thoughts of many hearts will 
+      be revealed. And a sword will pierce your own soul too.”"`;
 
-    
-    this.vues[0] = true;
+      if(this.vues[0] == true){
+
+        this.vues[0] = false;
+      }else if(this.vues[0] == false){
+
+        this.vues[0] = true;
+      }
+
 
     }else if(verse === "Matt 2:13-15"){
 
@@ -40,9 +46,16 @@ export class HomeComponent implements OnInit {
     So he got up, took the child and his mother during the night and left for Egypt, where he stayed until the death of Herod. And 
     so was fulfilled what the Lord had said through the prophet: “Out of Egypt I called my son.”`;
     
-    
-    this.vues[1] = true;
 
+    if(this.vues[1] == true){
+
+      this.vues[1] = false;
+    }else if(this.vues[1] == false){
+
+      this.vues[1] = true;
+    }
+
+    
     }else if(verse === "Luke 2:41-51"){ 
 
       this.value=`Every year Jesus’ parents went to Jerusalem for the Festival of the Passover. When he was twelve years old, they went up to the festival, 
@@ -54,8 +67,15 @@ export class HomeComponent implements OnInit {
     “Why were you searching for me?” he asked. “Didn’t you know I had to be in my Father’s house?” But they did not understand what he was saying to them.
     Then he went down to Nazareth with them and was obedient to them. But his mother treasured all these things in her heart.`;
 
+    if(this.vues[2] == true){
+
+      this.vues[2] = false;
+    }else if(this.vues[2] == false){
+
+      this.vues[2] = true;
+    }
+
     
-    this.vues[2] = true;
 
     }else if(verse === "Luke 23:26-31"){
       
@@ -69,8 +89,15 @@ export class HomeComponent implements OnInit {
     
     For if people do these things when the tree is green, what will happen when it is dry?”`;
 
+    if(this.vues[3] == true){
+
+      this.vues[3] = false;
+    }else if(this.vues[3] == false){
+
+      this.vues[3] = true;
+    }
+
     
-    this.vues[3] = true;
 
     }else if(verse === "John 19:25-27"){
 
@@ -78,16 +105,30 @@ export class HomeComponent implements OnInit {
     and the disciple whom he loved standing nearby, he said to her, “Woman, here is your son,” and to the disciple, “Here is your mother.” From that time on, 
     this disciple took her into his home.`
 
-    
-    this.vues[4] = true;
+    if(this.vues[4] == true){
+
+      this.vues[4] = false;
+    }else if(this.vues[4] == false){
+
+      this.vues[4] = true;
+    }
+
 
     }else if(verse === "John 19:38"){
 
       this.value=`Later, Joseph of Arimathea asked Pilate for the body of Jesus. Now Joseph was a disciple of Jesus, 
     but secretly because he feared the Jewish leaders. With Pilate’s permission, he came and took the body away.`
 
+    if(this.vues[5] == true){
+
+      this.vues[5] = false;
+    }else if(this.vues[5] == false){
+
+      this.vues[5] = true;
+    }
+
+
     
-    this.vues[5] = true;
 
     }else if(verse === "John 19:39-42"){
 
@@ -96,12 +137,18 @@ export class HomeComponent implements OnInit {
     was crucified, there was a garden, and in the garden a new tomb, in which no one had ever been laid.Because it was the Jewish day of Preparation and since the 
     tomb was nearby, they laid Jesus there.`
 
-    
-    this.vues[6] = true;
+    if(this.vues[6] == true){
 
+      this.vues[6] = false;
+    }else if(this.vues[6] == false){
+
+      this.vues[6] = true;
     }
 
-    //alert(this.value);
+  
+    }
+
+    
   }
 
   bibleVerseClose(verse:String){
