@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.prayerArea{
+    text-align: center;
+    white-space: pre-line;
+}
+
 .importantBold{
     font-weight: bold;
 }
