@@ -2,7 +2,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
 }
 
 #phamplet{
@@ -41,3 +41,54 @@
 .litany{
     list-style-type:none;
 }
+
+@media (max-width: 575.98px) { 
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+

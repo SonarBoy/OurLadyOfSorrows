@@ -8,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SayRosaryComponent implements OnInit {
 
   prayerTitle : string = "Sign of The Cross";
-  prayer : string = `In the name of the Father,
+  prayer : string = `&#x2629;
+  In the name of the Father,
   and of the Son,
   and of the Holy Spirit.
-  Amen.`;
+  Amen.
+  &#x2629;`;
 
   constructor() { }
 
@@ -22,15 +24,17 @@ export class SayRosaryComponent implements OnInit {
     
     if(input == "SOTC"){
       this.prayerTitle = "Sign of The Cross."
-      this.prayer = `In the name of the Father, 
+      this.prayer = ` &#x2629;
+      In the name of the Father, 
       and of the Son,
       and of the Holy Spirit.
-      Amen.`;
+      Amen.
+      &#x2629;`;
 
       
     }else if(input == "AP"){
       this.prayerTitle = "The Apostles Creed."
-      this.prayer = `
+      this.prayer = `&#x2629;
       I believe in God,
       the Father almighty,
       Creator of heaven and earth.
@@ -52,12 +56,13 @@ export class SayRosaryComponent implements OnInit {
       the forgiveness of sins,
       the resurrection of the body,
       and the life everlasting.
-      Amen.`;
+      Amen.
+      &#x2629;`;
 
       
     }else if(input == "OF"){
       this.prayerTitle = "Our Father."
-      this.prayer = `
+      this.prayer = `&#x2629;
       Our Father, who art in heaven; 
       hallowed be Thy name;
       Thy kingdom come; 
@@ -67,35 +72,38 @@ export class SayRosaryComponent implements OnInit {
       as we forgive those who trespass against us, 
       and lead us not into temptation; 
       but deliver us from evil.
-      Amen.`;
+      Amen.
+      &#x2629;`;
 
       
     }else if(input == "HM"){
       this.prayerTitle = "Hail Mary"
-      this.prayer = `
+      this.prayer = `&#x2629;
       Hail, Mary, full of grace; the Lord is with thee;
       blessed art thou among women,
       and blessed is the fruit of thy womb, Jesus.
       Holy Mary, Mother of God, pray for us sinners,
       now and at the hour of our death.
-      Amen. `;
+      Amen. 
+      &#x2629;`;
 
       
     }else if(input == "GB"){
       this.prayerTitle = "Glory be to the Father"
-      this.prayer = `
+      this.prayer = `&#x2629;
       Glory be to the Father,
       and to the Son,
       and to the Holy Spirit.
       As it was in the beginning,
       is now, and ever shall be,
       world without end.
-      Amen.`;
+      Amen.
+      &#x2629;`;
 
       
     }else if(input == "HHQ"){
       this.prayerTitle = "Hail, Holy Queen."
-      this.prayer = `
+      this.prayer = `&#x2629;
       Hail, Holy Queen, Mother of Mercy,
       our life, our sweetness and our hope,
       to thee do we cry,
@@ -109,9 +117,8 @@ export class SayRosaryComponent implements OnInit {
       O clement, O loving, O sweet Virgin Mary!
       Pray for us, O holy Mother of God,
       that we may be made worthy
-      of the promises of Christ.`
-
-      
+      of the promises of Christ.
+      &#x2629;`
     }
 
 
