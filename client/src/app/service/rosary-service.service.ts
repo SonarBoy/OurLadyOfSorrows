@@ -10,14 +10,14 @@ import { Mystery } from '../model/mystery.model';
 })
 export class RosaryServiceService {
   
-  private joyfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/joyful';
+  private joyfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/joyful2';
   private sorrowfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/sorrowful';
-  private gloriousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/glorious';
+  private gloriousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/glorious2';
   private luminousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/luminous';
   
 
   
-  private __jsonURL = 'http://localhost:4200/assets/tester.json';
+  private __jsonURL = 'assets/tester.json';
 
   /*
   private joyfulPoint = 'http://localhost:3000/api/Rosary/joyful';
@@ -66,15 +66,18 @@ export class RosaryServiceService {
   }
 
   public getSorrowfulList():Observable<any>{
-    return this.http.get<any>(this.sorrowfulPoint,this.httpOptionsSorrowful);
+    return this.http.get<any>(this.sorrowfulPoint,this.httpOptionsSorrowful)
+    .pipe(catchError(this.handleError<any>('getSorrowfulList',[])));
   }
 
   public getGloriousList():Observable<any>{
-    return this.http.get<any>(this.gloriousPoint,this.httpOptionsGlorious);
+    return this.http.get<any>(this.gloriousPoint,this.httpOptionsGlorious)
+    .pipe(catchError(this.handleError<any>('getGloriousList',[])));
   }
 
   public getLuminousList():Observable<any>{
-    return this.http.get<any>(this.luminousPoint,this.httpOptionsLuminous);
+    return this.http.get<any>(this.luminousPoint,this.httpOptionsLuminous)
+    .pipe(catchError(this.handleError<any>('getLuminousList',[])));
   }
   
   private handleError<T>(operation = 'operation', result?: T) {

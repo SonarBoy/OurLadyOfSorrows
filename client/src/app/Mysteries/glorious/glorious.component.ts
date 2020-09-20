@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Mystery } from '../../model/mystery.model';
 import { RosaryServiceService } from '../../service/rosary-service.service';
+import * as localRosaryData from '../../../assets/localData/glorious.json';
+localRosaryData.default.gloriousList;
 
 @Component({
   selector: 'app-glorious',
@@ -29,7 +31,7 @@ export class GloriousComponent implements OnInit {
         console.log(data);
         this.gloriousMystery = data.gloriousList;
       }else{
-        this.gloriousMystery = null;
+        this.gloriousMystery = localRosaryData.default.gloriousList;
       }
 
     });
