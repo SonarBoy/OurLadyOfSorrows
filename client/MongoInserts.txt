@@ -83,7 +83,7 @@ db.Rosary.insert({MysteryName:"Carrying of the Cross",MysteryType:"Sorrowful",My
 db.Rosary.insert({MysteryName:"The Crucifixion",MysteryType:"Sorrowful",MysteryNumber:"5",Verses:"",Matthew:"",Mark:"",Luke:"Luke 23,46 Jesus uttered a loud cry and said 'Father, into your hands I commend my spirit. After he said this, he expired.",John:""});
 
 db.Rosary.update({MysteryName: {$eq:"The Agony in the Garden"}},  {MysteryName:"The Agony in the Garden",MysteryType:"Sorrowful",MysteryNumber:"1",Verses:"",Matthew:"",Mark:"",Luke:"Luke 22,44-45 In his anguish he prayed with all the greater intensity, and his sweat became like drops of blood falling to the ground. Then he rose from prayer and came to his disciples, only to find them asleep, exhausted with grief.",John:"",
-Contemplation:" Let us contemplate Jesus in the Garden of Olives: before an extreme distress, the possibility of maintaining absolute trust in the Father.",
+Contemplation:"Let us contemplate Jesus in the Garden of Olives: before an extreme distress, the possibility of maintaining absolute trust in the Father.",
 imageLocation:"assets/Mysteries/Sorrowful/first.jpg",
 B1:"Jesus and His Apostles go to Gethsemane to pray. Mt. 26:36",
 B2:"With Peter, James and John, He enters the olive grove. Mt. 26:37",

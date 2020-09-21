@@ -11,9 +11,9 @@ import { Mystery } from '../model/mystery.model';
 export class RosaryServiceService {
   
   private joyfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/joyful2';
-  private sorrowfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/sorrowful';
+  private sorrowfulPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/sorrowful2';
   private gloriousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/glorious2';
-  private luminousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/luminous';
+  private luminousPoint = 'https://our-lady-of-sorrow.herokuapp.com/api/Rosary/luminous2';
   
 
   

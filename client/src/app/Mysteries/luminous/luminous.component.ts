@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Mystery } from '../../model/mystery.model';
 import { RosaryServiceService } from '../../service/rosary-service.service';
+import * as localRosaryData from '../../../assets/localData/luminous.json';
+localRosaryData.default.luminousList;
 
 
 @Component({
@@ -30,7 +32,8 @@ export class LuminousComponent implements OnInit {
         console.log(data);
         this.luminousMystery = data.luminousList;
       }else{
-        this.luminousMystery = null;
+        console.warn("Fallback to local .json");
+        this.luminousMystery = localRosaryData.default.luminousList;
       }
 
     });

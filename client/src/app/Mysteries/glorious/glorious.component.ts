@@ -31,6 +31,7 @@ export class GloriousComponent implements OnInit {
         console.log(data);
         this.gloriousMystery = data.gloriousList;
       }else{
+        console.warn("Fallback to local .json");
         this.gloriousMystery = localRosaryData.default.gloriousList;
       }
 
