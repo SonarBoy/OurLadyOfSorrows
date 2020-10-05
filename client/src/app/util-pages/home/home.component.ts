@@ -26,9 +26,11 @@ export class HomeComponent implements OnInit {
     
     if(verse === "Luke 2:34-35"){
 
-      this.value = `"Then Simeon blessed them and said to Mary, his mother: “This child is destined to cause the falling and 
+      this.value = `
+      "Then Simeon blessed them and said to Mary, his mother: “This child is destined to cause the falling and 
       rising of many in Israel, and to be a sign that will be spoken against, so that the thoughts of many hearts will 
-      be revealed. And a sword will pierce your own soul too.”"`;
+      be revealed. And a sword will pierce your own soul too.”"
+      `;
 
       if(this.vues[0] == true){
 

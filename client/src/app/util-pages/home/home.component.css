@@ -9,6 +9,11 @@
     background-color: #F6FCFC;
 }
 
+.crossCenter{
+    display: inline-block;
+    text-align: center;
+}
+
 .img-container {
     text-align: center;
 }
