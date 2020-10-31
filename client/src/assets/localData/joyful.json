@@ -1,7 +1,7 @@
  {"joyfulList":[
     
     {
-        "MysteryName" : "The Annunciation",
+        "MysteryName" : "THE ANNUNCIATION OF THE INCARNATION OF JESUS BY THE ANGEL",
         "MysteryType" : "Joyful",
         "MysteryNumber" : "1",
         "Verses" : "",
@@ -24,7 +24,7 @@
         "Grace" : "For the love of Humility"
     },
     {
-        "MysteryName" : "The Visitation",
+        "MysteryName" : "THE VISITATION OF MARY TO ELIZABETH AND ZECHARIAH",
         "MysteryType" : "Joyful",
         "MysteryNumber" : "2",
         "Verses" : "",
@@ -48,7 +48,7 @@
     },
     {
         
-        "MysteryName" : "The Birth Of Jesus",
+        "MysteryName" : "THE NATIVITY OF JESUS IN BETHLEHEM",
         "MysteryType" : "Joyful",
         "MysteryNumber" : "3",
         "Verses" : "",
@@ -71,7 +71,7 @@
         "Grace" : "For the Spirit of Poverty."
     },
     {
-        "MysteryName" : "The Presentation",
+        "MysteryName" : "THE PRESENTATION OF THE INFANT JESUS IN THE TEMPLE",
         "MysteryType" : "Joyful",
         "MysteryNumber" : "4",
         "Verses" : "",
@@ -94,7 +94,7 @@
         "Grace" : "For the Virtue of Obedience."
     },
     {
-        "MysteryName" : "Finding the Child Jesus in the Temple",
+        "MysteryName" : "THE FINDING OF THE CHILD JESUS IN THE TEMPLE",
         "MysteryType" : "Joyful",
         "MysteryNumber" : "5",
         "Verses" : "",

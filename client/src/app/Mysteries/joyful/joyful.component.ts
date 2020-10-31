@@ -16,6 +16,7 @@ export class JoyfulComponent implements OnInit {
 
   joyfulMystery: Mystery[];
   joyfulMysteryBackup: Object;
+  joyfulFallBack:boolean;
 
   //view:boolean = true;
   private __jsonURL = 'http://localhost:4200/assets/tester.json';
@@ -37,6 +38,7 @@ export class JoyfulComponent implements OnInit {
 
   ngOnInit() {
     this.joyfulMystery = new Array<Mystery>(); 
+    this.joyfulFallBack = true;
     this.displayJoyfulList();
 
    
@@ -69,11 +71,11 @@ export class JoyfulComponent implements OnInit {
       if(data.success){
         console.log(data);
         this.joyfulMystery = data.joyfulList;
-        
+        this.joyfulFallBack = false;
       }else{
         console.warn("Fallback to local .json");
         this.joyfulMystery = localRosaryData.default.joyfulList;
-
+        this.joyfulFallBack = true;
       }
 
      
