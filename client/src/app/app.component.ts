@@ -22,7 +22,7 @@ export class AppComponent implements OnInit{
   setUpAnalytics() {
     this.router.events.pipe(filter(event => event instanceof NavigationEnd))
         .subscribe((event: NavigationEnd) => {
-            gtag('config', '260620216',
+            gtag('config', 'G-70BT98MXQ3',
                 {
                     page_path: event.urlAfterRedirects
                 }
