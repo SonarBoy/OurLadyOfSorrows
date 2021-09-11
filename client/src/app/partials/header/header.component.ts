@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/model/user';
 import { AuthService } from 'src/app/service/auth.service';
-import { Router } from '@angular/router';
+import { NavigationEnd, Router } from '@angular/router';
+
+declare let gtag: Function;
 
 @Component({
   selector: 'app-header',
@@ -10,10 +12,22 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   user: User;
+
+  
   constructor(
     private authService: AuthService,
     private router: Router
-  ) { }
+  ) {
+    this.router.events.subscribe(event => {
+      if(event instanceof NavigationEnd){
+          gtag('config', 'xx-xxxxx-xx', 
+                {
+                  'page_path': event.urlAfterRedirects
+                }
+               );
+       }
+    }
+   }
 
   ngOnInit() {
     this.user = new User();
