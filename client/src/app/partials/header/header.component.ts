@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/model/user';
 import { AuthService } from 'src/app/service/auth.service';
 import { NavigationEnd, Router } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 declare let gtag: Function;
 
@@ -17,21 +18,23 @@ export class HeaderComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private router: Router
-  ) {
-    this.router.events.subscribe(event => {
-      if(event instanceof NavigationEnd){
-          gtag('config', 'xx-xxxxx-xx', 
-                {
-                  'page_path': event.urlAfterRedirects
-                }
-               );
-       }
-    }
-   }
+  ) { }
 
   ngOnInit() {
     this.user = new User();
     this.user = JSON.parse(localStorage.getItem('user'));
+    this.setUpAnalytics();
+  }
+
+  setUpAnalytics() {
+    this.router.events.pipe(filter(event => event instanceof NavigationEnd))
+        .subscribe((event: NavigationEnd) => {
+            gtag('config', 'G-70BT98MXQ3',
+                {
+                    page_path: event.urlAfterRedirects
+                }
+            );
+        });
   }
 
   onLogoutClick(){
